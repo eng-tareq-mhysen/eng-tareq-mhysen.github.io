@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Tareq Mhysen — AI & Data Science Engineer</title>
+  <meta name="description" content="Portfolio of Tareq Mhysen — Artificial Intelligence & Data Science Engineer specializing in LLMs, RAG systems, Computer Vision and intelligent applications." />
+  <meta name="author" content="Tareq Mhysen" />
+  <meta name="theme-color" content="#05060f" />
+  <meta property="og:title" content="Tareq Mhysen — AI & Data Science Engineer" />
+  <meta property="og:description" content="Building intelligent systems with LLMs, RAG, Computer Vision & modern AI frameworks." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236e57ff'/%3E%3Cstop offset='1' stop-color='%2300e5ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%23070812'/%3E%3Ctext x='32' y='43' font-family='Arial, sans-serif' font-size='28' font-weight='800' text-anchor='middle' fill='url(%23g)'%3ETM%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Cairo:wght@400;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <noscript><style>#preloader{display:none}.reveal{opacity:1;transform:none}.cursor-dot,.cursor-ring{display:none}</style></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tareq Mhysen",
+    "jobTitle": "Artificial Intelligence & Data Science Engineer",
+    "email": "Tareq.syria2002@gmail.com",
+    "telephone": "+963940843133",
+    "address": { "@type": "PostalAddress", "addressLocality": "Rif Dimashq", "addressCountry": "Syria" },
+    "sameAs": [
+      "https://linkedin.com/in/tareq-mhysen",
+      "https://github.com/TareqMhysen",
+      "https://instagram.com/tareq_mhysen_photography"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ══════════ PRELOADER ══════════ -->
+  <div id="preloader" aria-hidden="true">
+    <div class="loader-core">
+      <div class="loader-logo">TM</div>
+      <div class="loader-lines">
+        <span class="loader-line">&gt; initializing neural interface<span class="dots">...</span></span>
+        <span class="loader-line">&gt; loading model weights <span class="ok">[OK]</span></span>
+        <span class="loader-line">&gt; spinning up portfolio <span class="ok">[100%]</span></span>
+      </div>
+      <div class="loader-bar"><i></i></div>
+    </div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Scroll progress -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <header id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Tareq Mhysen — home">
+        <span class="logo-mark">TM</span>
+        <span class="logo-text">Tareq<span class="grad">.Mhysen</span></span>
+      </a>
+      <nav id="nav-links" aria-label="Primary">
+        <a href="#home" class="nav-link active" data-i18n="nav.home">Home</a>
+        <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+        <a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a>
+        <a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a>
+        <a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+        <a href="assets/Tareq-Mhysen-CV.pdf" class="btn btn-sm btn-outline nav-cv" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 21h16"/></svg>
+          <span data-i18n="nav.resume">Résumé</span>
+        </a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <button id="lang-toggle" class="icon-btn lang-btn" aria-label="Switch language" title="Language">عربي</button>
+        <button id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ══════════ HERO ══════════ -->
+    <section id="home" class="hero">
+      <canvas id="neural-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="hero-badge reveal"><span class="pulse-dot"></span><span data-i18n="hero.badge">Available for opportunities</span></div>
+          <h1 class="hero-title reveal">Tareq <span class="grad">Mhysen</span></h1>
+          <div class="hero-type reveal" aria-label="roles">
+            <span class="type-prefix">&gt;_</span>
+            <span id="typewriter"></span><span class="caret"></span>
+          </div>
+          <p class="hero-desc reveal" data-i18n="hero.desc">AI Engineering &amp; Data Science graduate crafting intelligent systems with <strong>LLMs</strong>, <strong>RAG pipelines</strong> and <strong>Computer Vision</strong> — turning cutting-edge research into products that solve real problems.</p>
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-primary">
+              <span data-i18n="hero.cta1">View My Work</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="assets/Tareq-Mhysen-CV.pdf" class="btn btn-outline" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 21h16"/></svg>
+              <span data-i18n="hero.cta2">Download CV</span>
+            </a>
+          </div>
+          <div class="hero-socials reveal">
+            <a href="https://github.com/TareqMhysen" target="_blank" rel="noopener" aria-label="GitHub" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/tareq-mhysen" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            </a>
+            <a href="https://instagram.com/tareq_mhysen_photography" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="mailto:Tareq.syria2002@gmail.com" aria-label="Email" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="orbit-wrap">
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="orbit-core"><span>TM</span></div>
+            <div class="orbit-dot d1"></div>
+            <div class="orbit-dot d2"></div>
+            <div class="orbit-dot d3"></div>
+            <div class="float-chip c1">LangChain</div>
+            <div class="float-chip c2">RAG</div>
+            <div class="float-chip c3">PyTorch</div>
+            <div class="float-chip c4">FAISS</div>
+            <div class="float-chip c5">LLaMA 3</div>
+            <div class="float-chip c6">TensorFlow</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-stats">
+        <div class="stat reveal"><span class="stat-num" data-target="8" data-suffix="+">0</span><span class="stat-label" data-i18n="stats.projects">AI Projects</span></div>
+        <div class="stat reveal"><span class="stat-num" data-target="98" data-suffix="%">0</span><span class="stat-label" data-i18n="stats.detection">Malware Detection</span></div>
+        <div class="stat reveal"><span class="stat-num" data-target="25" data-suffix="%">0</span><span class="stat-label" data-i18n="stats.resolution">Resolution Boost</span></div>
+        <div class="stat reveal"><span class="stat-num" data-target="10" data-suffix="+">0</span><span class="stat-label" data-i18n="stats.years">Years in Tech</span></div>
+      </div>
+    </section>
+
+    <!-- ══════════ MARQUEE ══════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Python</span><i>◆</i><span>TensorFlow</span><i>◆</i><span>PyTorch</span><i>◆</i><span>LangChain</span><i>◆</i><span>LlamaIndex</span><i>◆</i><span>Hugging Face</span><i>◆</i><span>FAISS</span><i>◆</i><span>Qdrant</span><i>◆</i><span>Neo4j</span><i>◆</i><span>FastAPI</span><i>◆</i><span>Docker</span><i>◆</i><span>OpenCV</span><i>◆</i><span>scikit-learn</span><i>◆</i><span>Streamlit</span><i>◆</i><span>Linux</span><i>◆</i><span>Git</span><i>◆</i><span>MongoDB</span><i>◆</i><span>PostgreSQL</span><i>◆</i>
+        <span>Python</span><i>◆</i><span>TensorFlow</span><i>◆</i><span>PyTorch</span><i>◆</i><span>LangChain</span><i>◆</i><span>LlamaIndex</span><i>◆</i><span>Hugging Face</span><i>◆</i><span>FAISS</span><i>◆</i><span>Qdrant</span><i>◆</i><span>Neo4j</span><i>◆</i><span>FastAPI</span><i>◆</i><span>Docker</span><i>◆</i><span>OpenCV</span><i>◆</i><span>scikit-learn</span><i>◆</i><span>Streamlit</span><i>◆</i><span>Linux</span><i>◆</i><span>Git</span><i>◆</i><span>MongoDB</span><i>◆</i><span>PostgreSQL</span><i>◆</i>
+      </div>
+    </div>
+
+    <!-- ══════════ ABOUT ══════════ -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="about.kicker">01. about</span>
+          <h2 data-i18n="about.title">Engineering intelligence,<br /><span class="grad">creatively.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio reveal">
+            <p data-i18n="about.bio1">I'm <strong>Tareq Mhysen</strong>, an Artificial Intelligence &amp; Data Science engineer from Damascus, Syria. I build intelligent applications powered by <strong>Large Language Models</strong>, <strong>Retrieval-Augmented Generation</strong>, vector databases and knowledge graphs — systems that understand context and deliver precise, meaningful answers.</p>
+            <p data-i18n="about.bio2">Beyond models and code, I'm a <strong>photographer</strong> and <strong>designer</strong> — which is why my AI projects don't just work well, they <em>look</em> and <em>feel</em> right. I live at the intersection of rigorous engineering and visual storytelling.</p>
+            <ul class="about-points">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span data-i18n="about.point1">Graduated with exceptional performance — SPU, Damascus</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span data-i18n="about.point2">Top capstone: Agentic AI Academic Advisor (RAG + LLMs)</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span data-i18n="about.point3">6+ years blending IT, AI, media &amp; creative production</span></li>
+            </ul>
+          </div>
+
+          <aside class="about-card reveal">
+            <div class="about-card-head">
+              <div class="avatar"><span>TM</span></div>
+              <div class="ahd-text">
+                <h3 data-i18n="about.name">Tareq Mhysen</h3>
+                <p data-i18n="about.role">AI &amp; Data Science Engineer</p>
+              </div>
+              <span class="status-pill"><span class="pulse-dot"></span><span data-i18n="about.open">Open to work</span></span>
+            </div>
+            <ul class="fact-list">
+              <li><span data-i18n="about.fLoc">Location</span><b data-i18n="about.vLoc">Rif Dimashq, Syria</b></li>
+              <li><span data-i18n="about.fDeg">Degree</span><b data-i18n="about.vDeg">BSc AI Engineering &amp; DS</b></li>
+              <li><span data-i18n="about.fUni">University</span><b data-i18n="about.vUni">Syrian Private University</b></li>
+              <li><span data-i18n="about.fYears">Years</span><b>2021 — 2026</b></li>
+              <li><span data-i18n="about.fMail">Email</span><b>Tareq.syria2002@gmail.com</b></li>
+              <li><span data-i18n="about.fPhone">Phone</span><b dir="ltr">+963 940 843 133</b></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="achieve-grid">
+          <article class="achieve-card reveal">
+            <span class="achieve-num grad" data-target="98" data-suffix="%">0</span>
+            <h4 data-i18n="ach1.title">Malware Detection Success</h4>
+            <p data-i18n="ach1.desc">High-precision AI-driven threat analysis of executable files — a novel agent reaching near-perfect detection.</p>
+          </article>
+          <article class="achieve-card reveal">
+            <span class="achieve-num grad" data-target="15" data-suffix="%">0</span>
+            <h4 data-i18n="ach2.title">Model Accuracy Uplift</h4>
+            <p data-i18n="ach2.desc">Optimized model performance with advanced neural architectures and refined ML techniques.</p>
+          </article>
+          <article class="achieve-card reveal">
+            <span class="achieve-num grad" data-target="25" data-suffix="%">0</span>
+            <h4 data-i18n="ach3.title">Image Resolution Enhanced</h4>
+            <p data-i18n="ach3.desc">GANs &amp; Transformers (SwinIR) super-resolving low-quality images with deep computer-vision proficiency.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ SERVICES ══════════ -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="services.kicker">02. services</span>
+          <h2 data-i18n="services.title">What I <span class="grad">offer</span>.</h2>
+          <p class="section-sub" data-i18n="services.sub">From intelligent RAG systems to creative production — a skill set that pairs rigorous engineering with artistic sense.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9Z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9Z"/></svg></div>
+            <h3 data-i18n="srv1.title">AI &amp; LLM Solutions</h3>
+            <p data-i18n="srv1.desc">Agentic assistants, RAG pipelines and LLM applications connected to your knowledge base and vector stores.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3 data-i18n="srv2.title">Computer Vision</h3>
+            <p data-i18n="srv2.desc">Detection, classification and image enhancement — from MRI tumor analysis to GAN-powered super-resolution.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-6 3 3 5-8"/></svg></div>
+            <h3 data-i18n="srv3.title">Data Science &amp; ML</h3>
+            <p data-i18n="srv3.desc">Model building, evaluation and optimization with reliable data preprocessing pipelines and honest metrics.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6"/><path d="m16 6 6 6-6 6"/><path d="m13 4-2 16"/></svg></div>
+            <h3 data-i18n="srv4.title">APIs &amp; Backend</h3>
+            <p data-i18n="srv4.desc">Fast REST APIs with FastAPI, SQL &amp; NoSQL data layers, and containerized deployments with Docker.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3Z"/></svg></div>
+            <h3 data-i18n="srv5.title">IT Solutions &amp; Support</h3>
+            <p data-i18n="srv5.desc">Infrastructure management, technical support and workflow automation — field-proven since 2018.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3Z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+            <h3 data-i18n="srv6.title">Creative Media</h3>
+            <p data-i18n="srv6.desc">Professional photography, visual identities and marketing content — elevated with AI-enhanced workflows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ PROJECTS ══════════ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="projects.kicker">03. projects</span>
+          <h2 data-i18n="projects.title">Things I've <span class="grad">built</span>.</h2>
+          <p class="section-sub" data-i18n="projects.sub">From RAG-powered agents to GANs that sharpen reality — every project shipped, benchmarked and presented. Click any card for full details.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Project filters">
+          <button class="filter-btn active" data-filter="all" data-i18n="flt.all">All</button>
+          <button class="filter-btn" data-filter="ai" data-i18n="flt.ai">AI &amp; LLMs</button>
+          <button class="filter-btn" data-filter="vision" data-i18n="flt.vision">Computer Vision</button>
+          <button class="filter-btn" data-filter="nlp" data-i18n="flt.nlp">NLP</button>
+          <button class="filter-btn" data-filter="iot" data-i18n="flt.iot">IoT &amp; Systems</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+
+          <article class="project-card tilt reveal" data-category="ai" data-project="intellipath">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 .74-.2 1.43-.55 2.02A4.5 4.5 0 0 1 19 12.5c0 .64-.13 1.25-.38 1.8A4 4 0 0 1 17 22h-4V2Z"/><path d="M12 2a4 4 0 0 0-4 4c0 .74.2 1.43.55 2.02A4.5 4.5 0 0 0 5 12.5c0 .64.13 1.25.38 1.8A4 4 0 0 0 7 22h4"/><path d="M12 2v20"/></svg></div>
+              <span class="project-year">2025 — 2026</span>
+            </div>
+            <h3 data-i18n="pr1.title">IntelliPath — Agentic AI Academic Advisor</h3>
+            <p class="project-type" data-i18n="pr1.type">Senior Capstone II · RAG + LLMs</p>
+            <p data-i18n="pr1.desc">Agentic advisor answering academic questions with retrieval-augmented generation over a curated knowledge base. Achieved <b>top performance</b> in the capstone showcase.</p>
+            <div class="tags"><span>Python</span><span>LangChain</span><span>LLaMA 3</span><span>FAISS</span><span>Hugging Face</span></div>
+            <div class="card-foot"><span class="project-badge" data-i18n="pr1.badge">🏆 Top Capstone</span><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="vision" data-project="isr">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.5-3.5a2 2 0 0 0-2.8 0L6 20"/></svg></div>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 data-i18n="pr2.title">AI Image Super-Resolution</h3>
+            <p class="project-type" data-i18n="pr2.type">Senior Capstone I · ISR</p>
+            <p data-i18n="pr2.desc">CNNs, GANs &amp; Transformer models (SwinIR) that reconstruct low-resolution images — boosting perceived resolution by <b>25%</b> with PSNR/SSIM benchmarking.</p>
+            <div class="tags"><span>TensorFlow</span><span>SwinIR</span><span>ESRGAN</span><span>OpenCV</span></div>
+            <div class="card-foot"><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="ai" data-project="malware">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+              <span class="project-year">2024 — 2025</span>
+            </div>
+            <h3 data-i18n="pr3.title">Intelligent Malware Detection</h3>
+            <p class="project-type" data-i18n="pr3.type">Junior Project · Threat Analytics</p>
+            <p data-i18n="pr3.desc">AI agent that classifies malware by analyzing <b>visual representations of executables</b> — reaching <b>98% accuracy</b> and recognized for exceptional innovation.</p>
+            <div class="tags"><span>Python</span><span>TensorFlow</span><span>DenseNet201</span><span>Scikit-learn</span></div>
+            <div class="card-foot"><span class="project-badge" data-i18n="pr3.badge">⚡ 98% Accuracy</span><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="vision" data-project="brain">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2a5.5 5.5 0 0 0-5.4 6.6A5.5 5.5 0 0 0 6 19h1"/><path d="M14.5 2a5.5 5.5 0 0 1 5.4 6.6A5.5 5.5 0 0 1 18 19h-1"/><path d="M8 8h.01M16 8h.01M9.5 14s1 1.5 2.5 1.5 2.5-1.5 2.5-1.5"/></svg></div>
+              <span class="project-year" data-i18n="pr4.year">Medical AI</span>
+            </div>
+            <h3 data-i18n="pr4.title">Brain Tumor Classification</h3>
+            <p class="project-type" data-i18n="pr4.type">Deep Learning · Healthcare</p>
+            <p data-i18n="pr4.desc">ResNet50 pipeline classifying brain MRI scans into tumor categories, achieving an <b>AUC of 0.8796</b> validated with ROC analysis.</p>
+            <div class="tags"><span>TensorFlow</span><span>ResNet50</span><span>ROC-AUC</span></div>
+            <div class="card-foot"><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="vision" data-project="airdraw">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="m7 15-1.8-1.8a2 2 0 0 0-2.8 2.8L7 20.6A6 6 0 0 0 11.3 22H14a6 6 0 0 0 6-6v-5a2 2 0 0 0-4 0"/></svg></div>
+              <span class="project-year" data-i18n="pr5.year">Real-time CV</span>
+            </div>
+            <h3 data-i18n="pr5.title">AI Air Drawing</h3>
+            <p class="project-type" data-i18n="pr5.type">Computer Vision · Interaction</p>
+            <p data-i18n="pr5.desc">Draw in thin air: real-time hand-tracking turns gestures into strokes on a virtual canvas — no mouse, no keyboard.</p>
+            <div class="tags"><span>OpenCV</span><span>MediaPipe</span><span>NumPy</span><span>PyAutoGUI</span></div>
+            <div class="card-foot"><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="nlp" data-project="summarizer">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.8 2.8 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg></div>
+              <span class="project-year" data-i18n="pr6.year">Transformers</span>
+            </div>
+            <h3 data-i18n="pr6.title">Abstractive Text Summarization</h3>
+            <p class="project-type" data-i18n="pr6.type">NLP · Streamlit App</p>
+            <p data-i18n="pr6.desc">BART-based summarizer condensing long documents into concise, meaningful summaries — wrapped in a clean Streamlit interface.</p>
+            <div class="tags"><span>Hugging Face</span><span>BART</span><span>NLTK</span><span>Streamlit</span></div>
+            <div class="card-foot"><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="iot" data-project="iot">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/><path d="M16 3h2v2"/></svg></div>
+              <span class="project-year" data-i18n="pr7.year">Embedded</span>
+            </div>
+            <h3 data-i18n="pr7.title">IoT Smart Home</h3>
+            <p class="project-type" data-i18n="pr7.type">Raspberry Pi · Automation</p>
+            <p data-i18n="pr7.desc">Full smart-home stack: appliance control and live sensor monitoring over MQTT, with a Flask dashboard and SQLite persistence.</p>
+            <div class="tags"><span>Raspberry Pi</span><span>MQTT</span><span>Flask</span><span>SQLite</span></div>
+            <div class="card-foot"><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+          <article class="project-card tilt reveal" data-category="ai" data-project="pso">
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <div class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-6 3 3 5-8"/></svg></div>
+              <span class="project-year" data-i18n="pr8.year">Optimization</span>
+            </div>
+            <h3 data-i18n="pr8.title">PSO Optimization Engine</h3>
+            <p class="project-type" data-i18n="pr8.type">Swarm Intelligence</p>
+            <p data-i18n="pr8.desc">Particle Swarm Optimization solving real-world continuous optimization problems efficiently, with rich visual analytics.</p>
+            <div class="tags"><span>NumPy</span><span>Matplotlib</span><span>Algorithms</span></div>
+            <div class="card-foot"><span class="card-more" data-i18n="pr.more">Details →</span></div>
+          </article>
+
+        </div>
+        <p id="no-projects" class="no-projects" hidden data-i18n="projects.none">Nothing in this category yet — coming soon.</p>
+      </div>
+    </section>
+
+    <!-- ══════════ SKILLS ══════════ -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="skills.kicker">04. skills</span>
+          <h2 data-i18n="skills.title">The <span class="grad">toolkit</span>.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-head"><span class="skill-ico">⌨</span><h3 data-i18n="sk1.title">Programming</h3></div>
+            <div class="pills"><span>Python</span><span>Java</span><span>C++</span><span>C#</span><span>SQL</span><span>Bash</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-head"><span class="skill-ico">🧠</span><h3 data-i18n="sk2.title">AI &amp; Machine Learning</h3></div>
+            <div class="pills"><span>Machine Learning</span><span>Deep Learning</span><span>NLP</span><span>LLMs</span><span>RAG</span><span>Prompt Engineering</span><span>Computer Vision</span><span>Embeddings</span><span>Model Evaluation</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-head"><span class="skill-ico">⚙</span><h3 data-i18n="sk3.title">Frameworks</h3></div>
+            <div class="pills"><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>LangChain</span><span>LlamaIndex</span><span>Hugging Face</span><span>FastAPI</span><span>Streamlit</span><span>.NET</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-head"><span class="skill-ico">🗄</span><h3 data-i18n="sk4.title">Databases &amp; Vector Stores</h3></div>
+            <div class="pills"><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Neo4j</span><span>Qdrant</span><span>FAISS</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-head"><span class="skill-ico">🛠</span><h3 data-i18n="sk5.title">Tools &amp; DevOps</h3></div>
+            <div class="pills"><span>Docker</span><span>Git</span><span>Linux</span><span>Postman</span><span>Jupyter</span><span>VS Code</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-head"><span class="skill-ico">📐</span><h3 data-i18n="sk6.title">Core CS</h3></div>
+            <div class="pills"><span>Data Structures</span><span>Algorithms</span><span>OOP</span><span>RESTful APIs</span><span>Vector Databases</span><span>Knowledge Graphs</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ EXPERIENCE ══════════ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="exp.kicker">05. experience</span>
+          <h2 data-i18n="exp.title">Where I've <span class="grad">worked</span>.</h2>
+        </div>
+
+        <div class="exp-wrap">
+          <div class="timeline">
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-card">
+                <span class="tl-period">2023 — Present</span>
+                <h3 data-i18n="job1.title">IT, Media &amp; AI Solutions Specialist</h3>
+                <p class="tl-org" data-i18n="job1.org">Artizan Interior Design · Syria &amp; Dubai</p>
+                <ul>
+                  <li data-i18n="job1.b1">Manage IT infrastructure and support across Damascus &amp; Dubai branches.</li>
+                  <li data-i18n="job1.b2">Lead AI-driven initiatives and automation to boost productivity.</li>
+                  <li data-i18n="job1.b3">Direct multimedia production aligned with a luxury design portfolio.</li>
+                  <li data-i18n="job1.b4">Bridge technical and creative teams for consistent brand delivery.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-card">
+                <span class="tl-period">2022 — Present</span>
+                <h3 data-i18n="job2.title">IT Systems Coordinator &amp; Team Manager</h3>
+                <p class="tl-org" data-i18n="job2.org">Wael Coating &amp; Decoration · Sheraton, Damascus</p>
+                <ul>
+                  <li data-i18n="job2.b1">Run IT infrastructure and coordinate teams to hit project goals.</li>
+                  <li data-i18n="job2.b2">Enhance workflows with digital media and AI tooling.</li>
+                  <li data-i18n="job2.b3">Oversee maintenance and deliver staff training.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-card">
+                <span class="tl-period">2020 — Present</span>
+                <h3 data-i18n="job3.title">Freelance Graphic Designer</h3>
+                <p class="tl-org" data-i18n="job3.org">Independent</p>
+                <ul>
+                  <li data-i18n="job3.b1">Design visual identities and marketing materials for digital &amp; print.</li>
+                  <li data-i18n="job3.b2">Translate complex ideas into clear, compelling design systems.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-card">
+                <span class="tl-period">2018 — Present</span>
+                <h3 data-i18n="job4.title">Mobile &amp; Laptop Specialist</h3>
+                <p class="tl-org" data-i18n="job4.org">Retail &amp; Service</p>
+                <ul>
+                  <li data-i18n="job4.b1">Diagnose and resolve complex hardware/software issues.</li>
+                  <li data-i18n="job4.b2">Deep expertise in troubleshooting, optimization &amp; customer support.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-card">
+                <span class="tl-period">2015 — Present</span>
+                <h3 data-i18n="job5.title">Freelance Photographer</h3>
+                <p class="tl-org" data-i18n="job5.org">Independent</p>
+                <ul>
+                  <li data-i18n="job5.b1">Advanced digital imaging &amp; AI-assisted enhancement workflows.</li>
+                  <li data-i18n="job5.b2">End-to-end client management across diverse assignments.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot edu"></div>
+              <div class="tl-card edu-card">
+                <span class="tl-period">2021 — 2026</span>
+                <h3 data-i18n="edu.title">BSc — AI Engineering &amp; Data Science</h3>
+                <p class="tl-org" data-i18n="edu.org">Syrian Private University (SPU) · Damascus</p>
+                <p data-i18n="edu.desc">Graduated with exceptional performance in technical projects, with strong practical application of AI principles.</p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="exp-side">
+            <h3 class="side-title reveal"><span data-i18n="vol.title">Beyond work</span> <span class="grad" data-i18n="vol.title2">— volunteering</span></h3>
+            <div class="vol-card reveal"><span class="vol-ico">🤖</span><div class="vol-text"><h4 data-i18n="vol1.title">Annual Robotic Competition</h4><p data-i18n="vol1.desc">Organizing &amp; on-ground support, fostering innovation and collaboration.</p></div></div>
+            <div class="vol-card reveal"><span class="vol-ico">🎓</span><div class="vol-text"><h4 data-i18n="vol2.title">SPU Student Support Committee</h4><p data-i18n="vol2.desc">2025–2026 · Supporting faculty operations &amp; student experience.</p></div></div>
+            <div class="vol-card reveal"><span class="vol-ico">🎨</span><div class="vol-text"><h4 data-i18n="vol3.title">Designer / Supervisor — Volunteer Team</h4><p data-i18n="vol3.desc">Led design initiatives and provided IT support for students.</p></div></div>
+            <div class="vol-card reveal"><span class="vol-ico">💬</span><div class="vol-text"><h4 data-i18n="vol4.title">Editor / Developer — @SPU_ITbot</h4><p data-i18n="vol4.desc">Built content for the official SPU student Telegram bot.</p></div></div>
+            <div class="vol-card reveal"><span class="vol-ico">📷</span><div class="vol-text"><h4 data-i18n="vol5.title">University Photography Team</h4><p data-i18n="vol5.desc">Documented key institutional events and narratives.</p></div></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ GALLERY ══════════ -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="gal.kicker">06. creative side</span>
+          <h2 data-i18n="gal.title">A photographer's <span class="grad">eye</span>.</h2>
+          <p class="section-sub" data-i18n="gal.sub">Since 2015 I've been crafting with light and pixels — photography, visual identity and media production, elevated by AI.</p>
+        </div>
+        <div class="gallery-grid">
+          <article class="g-tile g1 reveal"><span class="g-emoji">📷</span><div class="g-info"><h4 data-i18n="g1.title">Portrait Photography</h4><span class="g-tag" data-i18n="g1.tag">Photography</span></div></article>
+          <article class="g-tile g2 reveal"><span class="g-emoji">🎓</span><div class="g-info"><h4 data-i18n="g2.title">Events &amp; University Life</h4><span class="g-tag" data-i18n="g2.tag">Photography</span></div></article>
+          <article class="g-tile g3 reveal"><span class="g-emoji">🎨</span><div class="g-info"><h4 data-i18n="g3.title">Visual Identity</h4><span class="g-tag" data-i18n="g3.tag">Design</span></div></article>
+          <article class="g-tile g4 reveal"><span class="g-emoji">🖼</span><div class="g-info"><h4 data-i18n="g4.title">Marketing Materials</h4><span class="g-tag" data-i18n="g4.tag">Design</span></div></article>
+          <article class="g-tile g5 reveal"><span class="g-emoji">🎬</span><div class="g-info"><h4 data-i18n="g5.title">Multimedia Production</h4><span class="g-tag" data-i18n="g5.tag">Media</span></div></article>
+          <article class="g-tile g6 reveal"><span class="g-emoji">✨</span><div class="g-info"><h4 data-i18n="g6.title">AI-Enhanced Editing</h4><span class="g-tag" data-i18n="g6.tag">AI + Art</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ CERTIFICATIONS ══════════ -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="cert.kicker">07. certifications</span>
+          <h2 data-i18n="cert.title">Always <span class="grad">learning</span>.</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card reveal"><span class="cert-issuer">DeepLearning.AI · Coursera</span><h4 data-i18n="c1.title">Generative AI with Large Language Models</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">DeepLearning.AI</span><h4 data-i18n="c2.title">Neural Networks and Deep Learning</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">DeepLearning.AI</span><h4 data-i18n="c3.title">LangChain for LLM Application Development</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">DeepLearning.AI</span><h4 data-i18n="c4.title">LangChain Chat with Your Data</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">Syrian Youth Assembly · Coursera</span><h4 data-i18n="c5.title">Generative AI for Enhanced Content Creation</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">Syrian Youth Assembly</span><h4 data-i18n="c6.title">Generative AI Primer · GenAI in Marketing · Prompt Engineering for ChatGPT</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">Google for Education</span><h4 data-i18n="c7.title">Gemini Certified — Student (K12) · Educator · Student (University)</h4></article>
+          <article class="cert-card reveal"><span class="cert-issuer">Oracle / MySQL</span><h4 data-i18n="c8.title">MySQL Workbench — Database Creation &amp; Design</h4></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ REFERENCES ══════════ -->
+    <section id="references" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="ref.kicker">08. references</span>
+          <h2 data-i18n="ref.title">Trusted by <span class="grad">academia</span>.</h2>
+          <p class="section-sub" data-i18n="ref.sub">Academic references from the faculty where I studied and volunteered.</p>
+        </div>
+        <div class="ref-grid">
+          <article class="ref-card reveal">
+            <span class="ref-quote">"</span>
+            <h4 data-i18n="ref1.name">Dr. Mouhib Al-Nokari</h4>
+            <p class="ref-role" data-i18n="ref1.role">Dean of the Faculty of Artificial Intelligence Engineering</p>
+            <p class="ref-org" data-i18n="ref1.org">Syrian Private University (SPU)</p>
+          </article>
+          <article class="ref-card reveal">
+            <span class="ref-quote">"</span>
+            <h4 data-i18n="ref2.name">Eng. Aya Alaswad</h4>
+            <p class="ref-role" data-i18n="ref2.role">Teaching Assistant &amp; Lab Instructor, Faculty of Informatics Engineering (ITE)</p>
+            <p class="ref-org" data-i18n="ref2.org">Syrian Private University (SPU)</p>
+          </article>
+        </div>
+        <p class="ref-note reveal" data-i18n="ref.note">Contact details available upon request.</p>
+      </div>
+    </section>
+
+    <!-- ══════════ CONTACT ══════════ -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="ct.kicker">09. contact</span>
+          <h2 data-i18n="ct.title">Let's build something <span class="grad">intelligent</span> together.</h2>
+          <p class="section-sub" data-i18n="ct.sub">Open to AI/ML roles, freelance projects and collaborations. My inbox is always open.</p>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:Tareq.syria2002@gmail.com" class="contact-card reveal" id="email-card">
+            <span class="contact-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg></span>
+            <div class="cc-text"><h4 data-i18n="ct.email">Email</h4><p>Tareq.syria2002@gmail.com</p></div>
+            <button class="copy-btn" id="copy-email" type="button" aria-label="Copy email" data-i18n="ct.copy">Copy</button>
+          </a>
+          <a href="tel:+963940843133" class="contact-card reveal">
+            <span class="contact-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9Z"/></svg></span>
+            <div class="cc-text"><h4 data-i18n="ct.phone">Phone</h4><p dir="ltr">+963 940 843 133</p></div>
+          </a>
+          <div class="contact-card reveal">
+            <span class="contact-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div class="cc-text"><h4 data-i18n="ct.loc">Location</h4><p data-i18n="ct.locv">Rif Dimashq, Manin — Syria</p></div>
+          </div>
+        </div>
+
+        <div class="contact-socials reveal">
+          <a href="https://github.com/TareqMhysen" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/tareq-mhysen" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://instagram.com/tareq_mhysen_photography" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <button id="save-contact" class="btn btn-primary" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg>
+            <span data-i18n="ct.save">Save Contact</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════ PROJECT MODAL ══════════ -->
+  <div id="project-modal" class="modal-backdrop" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="modal-close" class="modal-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <span class="project-year" id="modal-year"></span>
+      <h3 id="modal-title"></h3>
+      <p class="project-type" id="modal-type"></p>
+      <div id="modal-desc"></div>
+      <h4 class="modal-sub" data-i18n="m.highlights">Highlights</h4>
+      <ul class="modal-list" id="modal-highlights"></ul>
+      <h4 class="modal-sub" data-i18n="m.stack">Tech Stack</h4>
+      <div class="tags" id="modal-tags"></div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" role="status"></div>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> <span data-i18n="ft.line">Tareq Mhysen — crafted with code, curiosity &amp; neural networks.</span></p>
+      <p class="footer-note" data-i18n="ft.note">References available upon request.</p>
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
