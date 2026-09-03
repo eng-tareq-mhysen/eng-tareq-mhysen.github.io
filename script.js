@@ -18,7 +18,7 @@
       "nav.skills": "Skills", "nav.experience": "Experience", "nav.contact": "Contact",
       "nav.resume": "Résumé",
 
-      "hero.badge": "Available for opportunities",
+      "hero.badge": "AI Models Engineer · Syrian Presidency",
       "hero.desc": 'AI Engineering & Data Science graduate crafting intelligent systems with <strong>LLMs</strong>, <strong>RAG pipelines</strong> and <strong>Computer Vision</strong> — turning cutting-edge research into products that solve real problems.',
       "hero.cta1": "View My Work", "hero.cta2": "Download CV",
       "stats.projects": "AI Projects", "stats.detection": "Malware Detection",
@@ -107,23 +107,36 @@
 
       "exp.kicker": "05. experience",
       "exp.title": 'Where I\'ve <span class="grad">worked</span>.',
+      "job0.p": "Mid 2026 — Present",
+      "job0.badge": "Current Role",
+      "job0.title": "AI Models Engineer & Developer — Data Science",
+      "job0.org": "General Secretariat of the Presidency of the Syrian Arab Republic",
+      "job0.b1": "Developing and fine-tuning Large Language Models (LLMs) for sensitive institutional missions.",
+      "job0.b2": "Building advanced RAG systems over official knowledge bases with secure vector indexes.",
+      "job0.b3": "Feature engineering and data-science pipelines that turn institutional data into decisions.",
+      "job0.b4": "Deploying solutions with Docker in high-reliability, high-confidentiality environments.",
+      "job1.p": "2023 — Present",
       "job1.title": "IT, Media & AI Solutions Specialist",
       "job1.org": "Artizan Interior Design · Syria & Dubai",
       "job1.b1": "Manage IT infrastructure and support across Damascus & Dubai branches.",
       "job1.b2": "Lead AI-driven initiatives and automation to boost productivity.",
       "job1.b3": "Direct multimedia production aligned with a luxury design portfolio.",
       "job1.b4": "Bridge technical and creative teams for consistent brand delivery.",
+      "job2.p": "2022 — Present",
       "job2.title": "IT Systems Coordinator & Team Manager",
       "job2.org": "Wael Coating & Decoration · Sheraton, Damascus",
       "job2.b1": "Run IT infrastructure and coordinate teams to hit project goals.",
       "job2.b2": "Enhance workflows with digital media and AI tooling.",
       "job2.b3": "Oversee maintenance and deliver staff training.",
+      "job3.p": "2020 — Present",
       "job3.title": "Freelance Graphic Designer", "job3.org": "Independent",
       "job3.b1": "Design visual identities and marketing materials for digital & print.",
       "job3.b2": "Translate complex ideas into clear, compelling design systems.",
+      "job4.p": "2018 — Present",
       "job4.title": "Mobile & Laptop Specialist", "job4.org": "Retail & Service",
       "job4.b1": "Diagnose and resolve complex hardware/software issues.",
       "job4.b2": "Deep expertise in troubleshooting, optimization & customer support.",
+      "job5.p": "2015 — Present",
       "job5.title": "Freelance Photographer", "job5.org": "Independent",
       "job5.b1": "Advanced digital imaging & AI-assisted enhancement workflows.",
       "job5.b2": "End-to-end client management across diverse assignments.",
@@ -146,6 +159,7 @@
       "gal.kicker": "06. creative side",
       "gal.title": 'A photographer\'s <span class="grad">eye</span>.',
       "gal.sub": "Since 2015 I've been crafting with light and pixels — photography, visual identity and media production, elevated by AI.",
+      "gal.ph.t": "Behind the lens", "gal.ph.tag": "Since 2015",
       "g1.title": "Portrait Photography", "g1.tag": "Photography",
       "g2.title": "Events & University Life", "g2.tag": "Photography",
       "g3.title": "Visual Identity", "g3.tag": "Design",
@@ -179,7 +193,7 @@
       "ct.title": 'Let\'s build something <span class="grad">intelligent</span> together.',
       "ct.sub": "Open to AI/ML roles, freelance projects and collaborations. My inbox is always open.",
       "ct.email": "Email", "ct.phone": "Phone", "ct.loc": "Location",
-      "ct.locv": "Rif Dimashq, Manin — Syria",
+      "ct.locv": "Rif Dimashq, Ain Mneen — Syria",
       "ct.copy": "Copy", "ct.save": "Save Contact",
 
       "m.highlights": "Highlights", "m.stack": "Tech Stack",
@@ -195,7 +209,7 @@
       "nav.skills": "المهارات", "nav.experience": "الخبرات", "nav.contact": "تواصل معي",
       "nav.resume": "سيرتي الذاتية",
 
-      "hero.badge": "متاح لفرص جديدة",
+      "hero.badge": "مهندس نماذج ذكاء اصطناعي · رئاسة الجمهورية",
       "hero.desc": 'خريج هندسة الذكاء الاصطناعي وعلوم البيانات، أبني أنظمةً ذكية بـ<strong>النماذج اللغوية الكبيرة</strong> و<strong>خطوط RAG</strong> و<strong>الرؤية الحاسوبية</strong> — أحوّل أحدث الأبحاث إلى منتجات تحل مشكلات حقيقية.',
       "hero.cta1": "شاهد أعمالي", "hero.cta2": "تحميل السيرة",
       "stats.projects": "مشاريع ذكاء اصطناعي", "stats.detection": "دقة كشف المالوير",
@@ -205,13 +219,13 @@
       "about.title": 'هندسة الذكاء،<br /><span class="grad">بإبداع.</span>',
       "about.bio1": "أنا <strong>طارق محيسن</strong>، مهندس ذكاء اصطناعي وعلوم بيانات من دمشق، سوريا. أبني تطبيقات ذكية مدعومة <strong>بالنماذج اللغوية الكبيرة</strong> و<strong>التوليد المعزز بالاسترجاع</strong> وقواعد البيانات المتجهية ورسومات المعرفة — أنظمة تفهم السياق وتقدّم إجابات دقيقة وذات معنى.",
       "about.bio2": "إلى جانب النماذج والشيفرات، أنا <strong>مصوّر</strong> و<strong>مصمم</strong> — ولهذا مشاريعي لا تعمل جيداً فحسب، بل <em>تبدو</em> و<em>تُحَسّ</em> بشكل صحيح. أعيش عند تقاطع الهندسة الدقيقة والسرد البصري.",
-      "about.point1": "تخرّج بأداء استثنائي في المشاريع التقنية — الجامعة الخاصة بسوريا، دمشق",
+      "about.point1": "تخرّج بأداء استثنائي في المشاريع التقنية — الجامعة السورية الخاصة، دمشق",
       "about.point2": "مشروع التخرج الأبرز: مستشار أكاديمي Agentic AI‏ (RAG + LLMs)",
       "about.point3": "أكثر من 6 سنوات في دمج التقنية والذكاء الاصطناعي والإعلام والإنتاج الإبداعي",
       "about.name": "طارق محيسن", "about.role": "مهندس ذكاء اصطناعي وعلوم بيانات", "about.open": "متاح للعمل",
       "about.fLoc": "الموقع", "about.vLoc": "ريف دمشق، سوريا",
       "about.fDeg": "الدرجة", "about.vDeg": "بكالوريوس هندسة AI وعلوم بيانات",
-      "about.fUni": "الجامعة", "about.vUni": "الجامعة الخاصة بسوريا",
+      "about.fUni": "الجامعة", "about.vUni": "الجامعة السورية الخاصة",
       "about.fYears": "السنوات", "about.fMail": "البريد", "about.fPhone": "الهاتف",
 
       "ach1.title": "نجاح في كشف المالوير",
@@ -284,28 +298,41 @@
 
       "exp.kicker": "05. الخبرات",
       "exp.title": 'أين <span class="grad">عملت</span>.',
+      "job0.p": "منتصف 2026 — الآن",
+      "job0.badge": "المنصب الحالي",
+      "job0.title": "مهندس ومطوّر نماذج الذكاء الاصطناعي وعلوم البيانات",
+      "job0.org": "الأمانة العامة لرئاسة الجمهورية العربية السورية",
+      "job0.b1": "تطوير وضبط دقيق (Fine-Tuning) لنماذج لغوية كبيرة لخدمة مهام مؤسسية حساسة.",
+      "job0.b2": "بناء أنظمة RAG متقدمة فوق قواعد معرفة رسمية مع فهارس متجهية آمنة.",
+      "job0.b3": "هندسة الخصائص وخطوط علوم البيانات لتحويل بيانات المؤسسة إلى رؤى وقرارات.",
+      "job0.b4": "نشر الحلول بحاويات Docker ضمن بيئات عالية الموثوقية والسرية.",
+      "job1.p": "2023 — الآن",
       "job1.title": "أخصائي تقنية معلومات وإعلام وحلول ذكاء اصطناعي",
       "job1.org": "أرتيزان للتصميم الداخلي · سوريا ودبي",
       "job1.b1": "إدارة بنية التقنية المعلوماتية والدعم في فرعي دمشق ودبي.",
       "job1.b2": "قيادة مبادرات ذكاء اصطناعي وأتمتة لرفع الإنتاجية.",
       "job1.b3": "إدارة الإنتاج الإعلامي المتوافق مع محفظة تصميم فاخرة.",
       "job1.b4": "الجسر بين الفرق التقنية والإبداعية لتسليم متسق للعلامة.",
+      "job2.p": "2022 — الآن",
       "job2.title": "منسق أنظمة تقنية ومدير فريق",
       "job2.org": "وائل للدهانات والديكور · الشيراتون، دمشق",
       "job2.b1": "تشغيل بنية التقنية المعلوماتية وتنسيق الفرق لتحقيق أهداف المشاريع.",
       "job2.b2": "تطوير سير العمل بأدوات الإعلام الرقمي والذكاء الاصطناعي.",
       "job2.b3": "الإشراف على الصيانة وتقديم تدريب للموظفين.",
+      "job3.p": "2020 — الآن",
       "job3.title": "مصمم جرافيك مستقل", "job3.org": "عمل حر",
       "job3.b1": "تصميم هويات بصرية ومواد تسويقية للرقمي والمطبوع.",
       "job3.b2": "تحويل الأفكار المعقدة إلى أنظمة تصميم واضحة وجذابة.",
+      "job4.p": "2018 — الآن",
       "job4.title": "أخصائي هواتف وحواسيب", "job4.org": "تجزئة وخدمات",
       "job4.b1": "تشخيص وحل مشكلات عتاد وبرمجيات معقدة.",
       "job4.b2": "خبرة عميقة في الصيانة والتحسين ودعم العملاء.",
+      "job5.p": "2015 — الآن",
       "job5.title": "مصوّر فوتوغرافي مستقل", "job5.org": "عمل حر",
       "job5.b1": "تقنيات تصوير رقمي متقدمة ومعالجة معززة بالذكاء الاصطناعي.",
       "job5.b2": "إدارة عملاء من البداية للنهاية عبر مهام متنوعة.",
       "edu.title": "بكالوريوس — هندسة الذكاء الاصطناعي وعلوم البيانات",
-      "edu.org": "الجامعة الخاصة بسوريا (SPU) · دمشق",
+      "edu.org": "الجامعة السورية الخاصة (SPU) · دمشق",
       "edu.desc": "تخرّجت بأداء استثنائي في المشاريع التقنية، مع تطبيق عملي قوي لمبادئ الذكاء الاصطناعي.",
 
       "vol.title": "خارج العمل", "vol.title2": "— التطوع",
@@ -323,6 +350,7 @@
       "gal.kicker": "06. الجانب الإبداعي",
       "gal.title": 'عين <span class="grad">مصوّر</span>.',
       "gal.sub": "منذ 2015 وأنا أصنع بالضوء والبكسل — تصوير، هوية بصرية، وإنتاج وسائط، بلمسة ذكاء اصطناعي.",
+      "gal.ph.t": "من خلف العدسة", "gal.ph.tag": "منذ 2015",
       "g1.title": "تصوير بورتريه", "g1.tag": "تصوير",
       "g2.title": "فعاليات وحياة جامعية", "g2.tag": "تصوير",
       "g3.title": "هوية بصرية", "g3.tag": "تصميم",
@@ -344,19 +372,19 @@
       "ref.kicker": "08. التوصيات",
       "ref.title": 'ثقة <span class="grad">أكاديمية</span>.',
       "ref.sub": "مراجع أكاديميون من الكلية التي درست وتطوعت فيها.",
-      "ref1.name": "د. محيب النكاري",
+      "ref1.name": "د. مهيب النقري",
       "ref1.role": "عميد كلية هندسة الذكاء الاصطناعي",
-      "ref1.org": "الجامعة الخاصة بسوريا (SPU)",
+      "ref1.org": "الجامعة السورية الخاصة (SPU)",
       "ref2.name": "م. آية الأسود",
       "ref2.role": "معيدة ومشرفة مختبرات — كلية الهندسة المعلوماتية (ITE)",
-      "ref2.org": "الجامعة الخاصة بسوريا (SPU)",
+      "ref2.org": "الجامعة السورية الخاصة (SPU)",
       "ref.note": "بيانات التواصل متاحة عند الطلب.",
 
       "ct.kicker": "09. تواصل",
       "ct.title": 'لنبنِ شيئًا <span class="grad">ذكيًا</span> معًا.',
       "ct.sub": "متاح لوظائف AI/ML ومشاريع حرة وتعاونات. بريدي مفتوح دائمًا.",
       "ct.email": "البريد الإلكتروني", "ct.phone": "الهاتف", "ct.loc": "الموقع",
-      "ct.locv": "ريف دمشق، معين — سوريا",
+      "ct.locv": "ريف دمشق، عين منين — سوريا",
       "ct.copy": "نسخ", "ct.save": "حفظ جهة الاتصال",
 
       "m.highlights": "أبرز النقاط", "m.stack": "التقنيات المستخدمة",
@@ -374,8 +402,8 @@
   };
 
   const ROLES = {
-    en: ["AI & Data Science Engineer", "LLM & RAG Developer", "Computer Vision Engineer", "Creative Technologist"],
-    ar: ["مهندس ذكاء اصطناعي وعلوم بيانات", "مطوّر أنظمة LLM وRAG", "مهندس رؤية حاسوبية", "تقني مبدع ومصوّر"],
+    en: ["AI & Data Science Engineer", "AI Models Engineer", "LLM & RAG Developer", "Computer Vision Engineer", "Creative Technologist"],
+    ar: ["مهندس ذكاء اصطناعي وعلوم بيانات", "مهندس نماذج الذكاء الاصطناعي", "مطوّر أنظمة LLM وRAG", "مهندس رؤية حاسوبية", "تقني مبدع ومصوّر"],
   };
 
   /* ═══════════════ PROJECT MODAL DATA ═══════════════ */
@@ -680,8 +708,8 @@
     if (!modal || !PROJECTS[id]) return;
     currentProject = id;
     lastFocus = document.activeElement;
-    fillModal();
     modal.hidden = false;
+    fillModal();
     requestAnimationFrame(() => modal.classList.add("show"));
     document.body.style.overflow = "hidden";
     $("#modal-close").focus();
@@ -1020,7 +1048,7 @@
         "EMAIL;TYPE=INTERNET:Tareq.syria2002@gmail.com",
         "URL:https://github.com/TareqMhysen",
         "URL:https://linkedin.com/in/tareq-mhysen",
-        "ADR;TYPE=HOME:;;Manin;Rif Dimashq;;;Syria",
+        "ADR;TYPE=HOME:;;Ain Mneen;Rif Dimashq;;;Syria",
         "END:VCARD",
       ].join("\r\n");
       const blob = new Blob([vcf], { type: "text/vcard;charset=utf-8" });
