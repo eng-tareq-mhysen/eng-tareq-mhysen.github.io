@@ -1,4 +1,4 @@
-# Tareq Mhysen — Portfolio · بورتفوليو طارق محسن
+# Tareq Mhysen — Portfolio · بورتفوليو طارق محيسن
 
 <div align="center">
 
