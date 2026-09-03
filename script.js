@@ -197,7 +197,7 @@
       "ct.copy": "Copy", "ct.save": "Save Contact",
 
       "m.highlights": "Highlights", "m.stack": "Tech Stack",
-      "ft.line": "Tareq Mhysen — crafted with code, curiosity & neural networks.",
+      "ft.line": "Tareq Mhysen",
       "ft.note": "References available upon request.",
       "toast.copied": "Email copied ✓",
       "copy.done": "Copied ✓",
@@ -388,7 +388,7 @@
       "ct.copy": "نسخ", "ct.save": "حفظ جهة الاتصال",
 
       "m.highlights": "أبرز النقاط", "m.stack": "التقنيات المستخدمة",
-      "ft.line": "طارق محيسن — صُنع بالبرمجة والفضول والشبكات العصبية.",
+      "ft.line": "طارق محيسن",
       "ft.note": "التوصيات متاحة عند الطلب.",
       "toast.copied": "تم نسخ البريد الإلكتروني ✓",
       "copy.done": "تم النسخ ✓",
