@@ -17,32 +17,38 @@
       "nav.home": "Home", "nav.about": "About", "nav.projects": "Projects",
       "nav.skills": "Skills", "nav.experience": "Experience", "nav.contact": "Contact",
       "nav.resume": "Résumé",
+      "dot.home": "Home", "dot.about": "About", "dot.services": "Services",
+      "dot.projects": "Projects", "dot.skills": "Skills", "dot.experience": "Experience",
+      "dot.gallery": "Creative", "dot.certifications": "Certifications",
+      "dot.references": "References", "dot.contact": "Contact",
 
-      "hero.badge": "AI Models Engineer · Syrian Presidency",
-      "hero.desc": 'AI Engineering & Data Science graduate crafting intelligent systems with <strong>LLMs</strong>, <strong>RAG pipelines</strong> and <strong>Computer Vision</strong> — turning cutting-edge research into products that solve real problems.',
+      "hero.badge": "AI & Data Science Engineer · Syrian Presidency",
+      "hero.desc": "AI & Data Science Engineer at the <strong>General Secretariat of the Presidency of Syria</strong>, building and fine-tuning <strong>LLMs</strong>, secure <strong>RAG systems</strong> and <strong>Computer Vision</strong> solutions for sensitive institutional missions.",
       "hero.cta1": "View My Work", "hero.cta2": "Download CV",
       "stats.projects": "AI Projects", "stats.detection": "Malware Detection",
-      "stats.resolution": "Resolution Boost", "stats.years": "Years in Tech",
+      "stats.resolution": "RAG Response Quality", "stats.years": "Years in Tech",
 
       "about.kicker": "01. about",
       "about.title": 'Engineering intelligence,<br /><span class="grad">creatively.</span>',
       "about.bio1": "I'm <strong>Tareq Mhysen</strong>, an Artificial Intelligence & Data Science engineer from Damascus, Syria. I build intelligent applications powered by <strong>Large Language Models</strong>, <strong>Retrieval-Augmented Generation</strong>, vector databases and knowledge graphs — systems that understand context and deliver precise, meaningful answers.",
       "about.bio2": "Beyond models and code, I'm a <strong>photographer</strong> and <strong>designer</strong> — which is why my AI projects don't just work well, they <em>look</em> and <em>feel</em> right. I live at the intersection of rigorous engineering and visual storytelling.",
-      "about.point1": "Graduated with exceptional performance — SPU, Damascus",
+      "about.point1": "B.Eng. in AI Engineering & Data Science — SPU, Damascus (2021–2026)",
       "about.point2": "Top capstone: Agentic AI Academic Advisor (RAG + LLMs)",
-      "about.point3": "6+ years blending IT, AI, media & creative production",
+      "about.point3": "8+ years blending IT, AI, media & creative production",
       "about.name": "Tareq Mhysen", "about.role": "AI & Data Science Engineer", "about.open": "Open to work",
-      "about.fLoc": "Location", "about.vLoc": "Rif Dimashq, Syria",
-      "about.fDeg": "Degree", "about.vDeg": "BSc AI Engineering & DS",
+      "about.fLoc": "Location", "about.vLoc": "Rif Dimashq, Ain Mneen — Syria",
+      "about.fDeg": "Degree", "about.vDeg": "B.Eng. AI Engineering & Data Science",
       "about.fUni": "University", "about.vUni": "Syrian Private University",
-      "about.fYears": "Years", "about.fMail": "Email", "about.fPhone": "Phone",
+      "about.fYears": "Years", "about.fDob": "Date of Birth",
+      "about.fLang": "Languages", "about.vLang": "Arabic · English",
+      "about.fMail": "Email", "about.fPhone": "Phone",
 
       "ach1.title": "Malware Detection Success",
-      "ach1.desc": "High-precision AI-driven threat analysis of executable files — a novel agent reaching near-perfect detection.",
-      "ach2.title": "Model Accuracy Uplift",
-      "ach2.desc": "Optimized model performance with advanced neural architectures and refined ML techniques.",
-      "ach3.title": "Image Resolution Enhanced",
-      "ach3.desc": "GANs & Transformers (SwinIR) super-resolving low-quality images with deep computer-vision proficiency.",
+      "ach1.desc": "DenseNet201 visual classifier reaching 98.8% accuracy and 0.999 AUC on 29,575 balanced executable samples.",
+      "ach2.title": "RAG Response Quality",
+      "ach2.desc": "IntelliPath agent scored 90.5% (LLM-as-a-Judge) with P95 latency of 3.6s and an 8.2× semantic-cache speed-up.",
+      "ach3.title": "Super-Resolution Benchmark",
+      "ach3.desc": "SwinIR reached 35.20 dB PSNR / 0.940 SSIM at ×2 — best of five architectures benchmarked on DIV2K.",
 
       "services.kicker": "02. services",
       "services.title": 'What I <span class="grad">offer</span>.',
@@ -68,16 +74,21 @@
       "pr.more": "Details →",
 
       "pr1.title": "IntelliPath — Agentic AI Academic Advisor",
-      "pr1.type": "Senior Capstone II · RAG + LLMs",
-      "pr1.desc": 'Agentic advisor answering academic questions with retrieval-augmented generation over a curated knowledge base. Achieved <b>top performance</b> in the capstone showcase.',
-      "pr1.badge": "🏆 Top Capstone",
-      "pr2.title": "AI Image Super-Resolution",
-      "pr2.type": "Senior Capstone I · ISR",
-      "pr2.desc": 'CNNs, GANs & Transformer models (SwinIR) that reconstruct low-resolution images — boosting perceived resolution by <b>25%</b> with PSNR/SSIM benchmarking.',
-      "pr3.title": "Intelligent Malware Detection",
-      "pr3.type": "Junior Project · Threat Analytics",
-      "pr3.desc": 'AI agent that classifies malware by analyzing <b>visual representations of executables</b> — reaching <b>98% accuracy</b> and recognized for exceptional innovation.',
-      "pr3.badge": "⚡ 98% Accuracy",
+      "pr1.year": "Sept 2025 — 2026",
+      "pr1.type": "Senior Project II · Agentic RAG + LLMs",
+      "pr1.desc": 'Agentic platform with <b>27 specialized tools</b> and Hybrid RAG (semantic + full-text, fused with RRF). Response quality <b>90.5%</b> (LLM-as-a-Judge) at <b>P95 3.6s</b>.',
+      "pr1.badge": "🎯 90.5% Quality",
+      "pr2.title": "AI Image Super-Resolution — ISR",
+      "pr2.type": "Senior Project I · Image Super-Resolution",
+      "pr2.desc": 'PyTorch benchmark of 5 SR models on DIV2K — SwinIR leads at ×2 with <b>35.20 dB PSNR / 0.940 SSIM</b>, plus a loss-function study (L1+VGG best).',
+      "pr3.title": "Intelligent Malware Analytics — Deep Learning Classifier",
+      "pr3.type": "Junior Project · Deep Learning Security",
+      "pr3.desc": 'Executables → grayscale images → fine-tuned CNNs. <b>DenseNet201: 98.8% accuracy, 0.999 AUC</b> on 29,575 balanced samples — validated on real unseen files.',
+      "pr3.badge": "⚡ 98.8% Accuracy",
+      "pr9.title": "Malware Detection — AI Techniques (Tabular ML)",
+      "pr9.type": "Academic Project · Classical ML",
+      "pr9.desc": 'Hybrid <b>Random Forest + KNN</b> over 216 app features — <b>98.84% accuracy / 98.83% F1</b>, tuned with GridSearchCV on 15,036 samples.',
+      "pr9.badge": "⚡ 98.84% F1",
       "pr4.title": "Brain Tumor Classification",
       "pr4.type": "Deep Learning · Healthcare",
       "pr4.year": "Medical AI",
@@ -101,48 +112,55 @@
 
       "skills.kicker": "04. skills",
       "skills.title": 'The <span class="grad">toolkit</span>.',
-      "sk1.title": "Programming", "sk2.title": "AI & Machine Learning",
-      "sk3.title": "Frameworks", "sk4.title": "Databases & Vector Stores",
-      "sk5.title": "Tools & DevOps", "sk6.title": "Core CS",
+      "skills.sub": "A full AI-engineering stack — from languages and frameworks to data infrastructure and core computer-science concepts.",
+      "skills.total": "6 specializations · 74 skills",
+      "skills.unit": "skills",
+      "skills.cats": "specializations",
+      "sk1.title": "Programming Languages", "sk2.title": "Generative AI & LLMs",
+      "sk3.title": "Machine & Deep Learning", "sk4.title": "Frameworks & Libraries",
+      "sk5.title": "Data & Infrastructure", "sk6.title": "Tools, CS & Concepts",
 
       "exp.kicker": "05. experience",
       "exp.title": 'Where I\'ve <span class="grad">worked</span>.',
       "job0.p": "Mid 2026 — Present",
       "job0.badge": "Current Role",
-      "job0.title": "AI Models Engineer & Developer — Data Science",
+      "job0.title": "AI & Data Science Engineer",
       "job0.org": "General Secretariat of the Presidency of the Syrian Arab Republic",
       "job0.b1": "Developing and fine-tuning Large Language Models (LLMs) for sensitive institutional missions.",
       "job0.b2": "Building advanced RAG systems over official knowledge bases with secure vector indexes.",
       "job0.b3": "Feature engineering and data-science pipelines that turn institutional data into decisions.",
       "job0.b4": "Deploying solutions with Docker in high-reliability, high-confidentiality environments.",
-      "job1.p": "2023 — Present",
+      "job1.p": "2023 — Mid 2026",
       "job1.title": "IT, Media & AI Solutions Specialist",
       "job1.org": "Artizan Interior Design · Syria & Dubai",
-      "job1.b1": "Manage IT infrastructure and support across Damascus & Dubai branches.",
-      "job1.b2": "Lead AI-driven initiatives and automation to boost productivity.",
-      "job1.b3": "Direct multimedia production aligned with a luxury design portfolio.",
-      "job1.b4": "Bridge technical and creative teams for consistent brand delivery.",
-      "job2.p": "2022 — Present",
+      "job1.b1": "Managed IT infrastructure, system maintenance and technical support across the Damascus & Dubai branches.",
+      "job1.b2": "Coordinated and implemented technology, digital-media and AI-driven initiatives to improve operational efficiency.",
+      "job1.b3": "Led multimedia production and content development, including visual assets and marketing presentations for luxury interior-design projects.",
+      "job1.b4": "Leveraged AI tools and automation to optimize creative workflows and strengthen digital presence in local and international markets.",
+      "job1.b5": "Facilitated collaboration between technical and creative teams for consistent brand representation.",
+      "job2.p": "2022 — Mid 2026",
       "job2.title": "IT Systems Coordinator & Team Manager",
       "job2.org": "Wael Coating & Decoration · Sheraton, Damascus",
-      "job2.b1": "Run IT infrastructure and coordinate teams to hit project goals.",
-      "job2.b2": "Enhance workflows with digital media and AI tooling.",
-      "job2.b3": "Oversee maintenance and deliver staff training.",
-      "job3.p": "2020 — Present",
+      "job2.b1": "Managed and maintained IT infrastructure to ensure reliable daily operations.",
+      "job2.b2": "Led and coordinated teams to achieve project objectives efficiently.",
+      "job2.b3": "Improved workflows through digital-media solutions and AI-powered tools.",
+      "job2.b4": "Facilitated communication between technical and administrative departments.",
+      "job2.b5": "Oversaw technical maintenance and provided staff training and support.",
+      "job3.p": "2020 — 2024",
       "job3.title": "Freelance Graphic Designer", "job3.org": "Independent",
-      "job3.b1": "Design visual identities and marketing materials for digital & print.",
-      "job3.b2": "Translate complex ideas into clear, compelling design systems.",
+      "job3.b1": "Designed visual identities and marketing materials for digital & print media.",
+      "job3.b2": "Applied visual-communication and UX principles to deliver clear, effective designs.",
       "job4.p": "2018 — Present",
-      "job4.title": "Mobile & Laptop Specialist", "job4.org": "Retail & Service",
-      "job4.b1": "Diagnose and resolve complex hardware/software issues.",
-      "job4.b2": "Deep expertise in troubleshooting, optimization & customer support.",
-      "job5.p": "2015 — Present",
-      "job5.title": "Freelance Photographer", "job5.org": "Independent",
-      "job5.b1": "Advanced digital imaging & AI-assisted enhancement workflows.",
-      "job5.b2": "End-to-end client management across diverse assignments.",
-      "edu.title": "BSc — AI Engineering & Data Science",
-      "edu.org": "Syrian Private University (SPU) · Damascus",
-      "edu.desc": "Graduated with exceptional performance in technical projects, with strong practical application of AI principles.",
+      "job4.title": "Mobile & Laptop Specialist (Part-Time)", "job4.org": "Retail & Service",
+      "job4.b1": "Diagnose and troubleshoot hardware and software issues in mobile devices and laptops.",
+      "job4.b2": "Provide system optimization, technical maintenance and customer support.",
+      "job5.p": "2015 — 2025",
+      "job5.title": "Freelance Photographer", "job5.org": "Instagram — tareq_mhysen_photography",
+      "job5.b1": "Managed photography projects, digital imaging, photo editing and enhancement.",
+      "job5.b2": "Maintained client communication and delivered high-quality visual content.",
+      "edu.title": "Bachelor's — AI Engineering & Data Science",
+      "edu.org": "Syrian Private University (SPU) · Damascus, Syria",
+      "edu.desc": "Graduated with strong academic performance in technical projects, demonstrating the ability to apply AI, Machine Learning and Deep Learning to real-world challenges.",
 
       "vol.title": "Beyond work", "vol.title2": "— volunteering",
       "vol1.title": "Annual Robotic Competition",
@@ -169,25 +187,38 @@
 
       "cert.kicker": "07. certifications",
       "cert.title": 'Always <span class="grad">learning</span>.',
+      "cert.sub": "15 certificates across LLM engineering, generative AI, prompt engineering and databases.",
+      "cert.count": "15 certificates · 6 providers",
+      "cert.view": "View certificate",
+      "cert.open": "Open original",
+      "c0.title": "Agentic AI",
       "c1.title": "Generative AI with Large Language Models",
       "c2.title": "Neural Networks and Deep Learning",
       "c3.title": "LangChain for LLM Application Development",
-      "c4.title": "LangChain Chat with Your Data",
+      "c4.title": "LangChain: Chat with Your Data",
       "c5.title": "Generative AI for Enhanced Content Creation",
-      "c6.title": "Generative AI Primer · GenAI in Marketing · Prompt Engineering for ChatGPT",
-      "c7.title": "Gemini Certified — Student (K12) · Educator · Student (University)",
-      "c8.title": "MySQL Workbench — Database Creation & Design",
+      "c6.title": "Generative AI Content Creation",
+      "c7.title": "Editing and Enhancing AI-Generated Content",
+      "c8.title": "Prompt Engineering for ChatGPT",
+      "c9.title": "Generative AI Primer",
+      "c10.title": "Generative AI in Marketing",
+      "c11.title": "Database Creation and Design",
+      "c12.title": "Gemini Certified Student (K12)",
+      "c13.title": "Gemini Certified Student (University)",
+      "c14.title": "Gemini Certified Educator",
 
       "ref.kicker": "08. references",
       "ref.title": 'Trusted by <span class="grad">academia</span>.',
       "ref.sub": "Academic references from the faculty where I studied and volunteered.",
-      "ref1.name": "Dr. Mouhib Al-Nokari",
+      "ref1.name": "Dr. Mouhib Al-Noukari",
       "ref1.role": "Dean of the Faculty of Artificial Intelligence Engineering",
       "ref1.org": "Syrian Private University (SPU)",
+      "ref1.phone": "+963 965 110 065",
       "ref2.name": "Eng. Aya Alaswad",
       "ref2.role": "Teaching Assistant & Lab Instructor, Faculty of Informatics Engineering (ITE)",
       "ref2.org": "Syrian Private University (SPU)",
-      "ref.note": "Contact details available upon request.",
+      "ref2.phone": "+963 959 411 465",
+      "ref.note": "More contact details available upon request.",
 
       "ct.kicker": "09. contact",
       "ct.title": 'Let\'s build something <span class="grad">intelligent</span> together.',
@@ -208,32 +239,38 @@
       "nav.home": "الرئيسية", "nav.about": "نبذة عني", "nav.projects": "المشاريع",
       "nav.skills": "المهارات", "nav.experience": "الخبرات", "nav.contact": "تواصل معي",
       "nav.resume": "سيرتي الذاتية",
+      "dot.home": "الرئيسية", "dot.about": "نبذة عني", "dot.services": "الخدمات",
+      "dot.projects": "المشاريع", "dot.skills": "المهارات", "dot.experience": "الخبرات",
+      "dot.gallery": "الإبداع", "dot.certifications": "الشهادات",
+      "dot.references": "التوصيات", "dot.contact": "تواصل",
 
-      "hero.badge": "مهندس نماذج ذكاء اصطناعي · رئاسة الجمهورية",
-      "hero.desc": 'خريج هندسة الذكاء الاصطناعي وعلوم البيانات، أبني أنظمةً ذكية بـ<strong>النماذج اللغوية الكبيرة</strong> و<strong>خطوط RAG</strong> و<strong>الرؤية الحاسوبية</strong> — أحوّل أحدث الأبحاث إلى منتجات تحل مشكلات حقيقية.',
+      "hero.badge": "مهندس ذكاء اصطناعي وعلوم بيانات · رئاسة الجمهورية",
+      "hero.desc": "مهندس ذكاء اصطناعي وعلوم بيانات في <strong>الأمانة العامة لرئاسة الجمهورية العربية السورية</strong>، أطوّر وأضبط <strong>النماذج اللغوية الكبيرة</strong> و<strong>أنظمة RAG الآمنة</strong> وحلول <strong>الرؤية الحاسوبية</strong> لمهام مؤسسية حساسة.",
       "hero.cta1": "شاهد أعمالي", "hero.cta2": "تحميل السيرة",
       "stats.projects": "مشاريع ذكاء اصطناعي", "stats.detection": "دقة كشف المالوير",
-      "stats.resolution": "تحسين دقة الصور", "stats.years": "سنوات في المجال التقني",
+      "stats.resolution": "جودة استجابة RAG", "stats.years": "سنوات في المجال التقني",
 
       "about.kicker": "01. نبذة عني",
       "about.title": 'هندسة الذكاء،<br /><span class="grad">بإبداع.</span>',
       "about.bio1": "أنا <strong>طارق محيسن</strong>، مهندس ذكاء اصطناعي وعلوم بيانات من دمشق، سوريا. أبني تطبيقات ذكية مدعومة <strong>بالنماذج اللغوية الكبيرة</strong> و<strong>التوليد المعزز بالاسترجاع</strong> وقواعد البيانات المتجهية ورسومات المعرفة — أنظمة تفهم السياق وتقدّم إجابات دقيقة وذات معنى.",
       "about.bio2": "إلى جانب النماذج والشيفرات، أنا <strong>مصوّر</strong> و<strong>مصمم</strong> — ولهذا مشاريعي لا تعمل جيداً فحسب، بل <em>تبدو</em> و<em>تُحَسّ</em> بشكل صحيح. أعيش عند تقاطع الهندسة الدقيقة والسرد البصري.",
-      "about.point1": "تخرّج بأداء استثنائي في المشاريع التقنية — الجامعة السورية الخاصة، دمشق",
+      "about.point1": "بكالوريوس هندسة الذكاء الاصطناعي وعلوم البيانات — الجامعة السورية الخاصة (2021–2026)",
       "about.point2": "مشروع التخرج الأبرز: مستشار أكاديمي Agentic AI‏ (RAG + LLMs)",
-      "about.point3": "أكثر من 6 سنوات في دمج التقنية والذكاء الاصطناعي والإعلام والإنتاج الإبداعي",
+      "about.point3": "أكثر من 8 سنوات في دمج التقنية والذكاء الاصطناعي والإعلام والإنتاج الإبداعي",
       "about.name": "طارق محيسن", "about.role": "مهندس ذكاء اصطناعي وعلوم بيانات", "about.open": "متاح للعمل",
-      "about.fLoc": "الموقع", "about.vLoc": "ريف دمشق، سوريا",
-      "about.fDeg": "الدرجة", "about.vDeg": "بكالوريوس هندسة AI وعلوم بيانات",
+      "about.fLoc": "الموقع", "about.vLoc": "ريف دمشق، عين منين — سوريا",
+      "about.fDeg": "الدرجة", "about.vDeg": "بكالوريوس هندسة الذكاء الاصطناعي وعلوم البيانات",
       "about.fUni": "الجامعة", "about.vUni": "الجامعة السورية الخاصة",
-      "about.fYears": "السنوات", "about.fMail": "البريد", "about.fPhone": "الهاتف",
+      "about.fYears": "السنوات", "about.fDob": "تاريخ الميلاد",
+      "about.fLang": "اللغات", "about.vLang": "العربية · الإنجليزية",
+      "about.fMail": "البريد", "about.fPhone": "الهاتف",
 
       "ach1.title": "نجاح في كشف المالوير",
-      "ach1.desc": "تحليل تهديدات دقيق مدعوم بالذكاء الاصطناعي للملفات التنفيذية — وكيل مبتكر يبلغ كشفًا شبه مثالي.",
-      "ach2.title": "رفع دقة النماذج",
-      "ach2.desc": "حسّنت أداء النماذج عبر بنى عصبية متقدمة وتقنيات تعلم آلي مصقولة.",
-      "ach3.title": "تعزيز دقة الصور",
-      "ach3.desc": "شبكات GAN وترانسفورمر (SwinIR) تعيد بناء الصور منخفضة الجودة بإتقان عميق في الرؤية الحاسوبية.",
+      "ach1.desc": "مصنّف DenseNet201 بصري بدقة 98.8% وAUC بقيمة 0.999 على 29,575 عينة تنفيذية متوازنة.",
+      "ach2.title": "جودة استجابة RAG",
+      "ach2.desc": "وكيل IntelliPath حقق 90.5% ‏(LLM-as-a-Judge) بزمن P95 يساوي 3.6 ثانية وكاش دلالي بتسريع 8.2×.",
+      "ach3.title": "معيار فائق الدقة",
+      "ach3.desc": "بلغ SwinIR قيمة PSNR 35.20 dB وSSIM 0.940 عند ×2 — الأفضل بين خمس بنياً قيست على DIV2K.",
 
       "services.kicker": "02. الخدمات",
       "services.title": 'ماذا <span class="grad">أقدّم</span>؟',
@@ -259,16 +296,21 @@
       "pr.more": "التفاصيل ←",
 
       "pr1.title": "IntelliPath — مستشار أكاديمي بوكيل ذكي",
-      "pr1.type": "مشروع تخرج II · RAG + LLMs",
-      "pr1.desc": 'مستشار وكيل يجيب عن الأسئلة الأكاديمية بتوليد معزز بالاسترجاع فوق قاعدة معرفة منسقة. حقق <b>الأداء الأفضل</b> في عرض مشاريع التخرج.',
-      "pr1.badge": "🏆 الأفضل في التخرج",
-      "pr2.title": "فائق دقة الصور بالذكاء الاصطناعي",
-      "pr2.type": "مشروع تخرج I · ISR",
-      "pr2.desc": 'نماذج CNN وGAN وترانسفورمر (SwinIR) تعيد بناء الصور منخفضة الدقة — بتحسّن إدراكي <b>25%</b> وقياس PSNR/SSIM.',
-      "pr3.title": "الكشف الذكي عن المالوير",
-      "pr3.type": "مشروع سنة ثالثة · تحليل تهديدات",
-      "pr3.desc": 'وكيل ذكي يصنّف البرمجيات الخبيثة بتحليل <b>التمثيل البصري للملفات التنفيذية</b> — بدقة <b>98%</b> وتقدير على الابتكار.',
-      "pr3.badge": "⚡ دقة 98%",
+      "pr1.year": "أيلول 2025 — 2026",
+      "pr1.type": "مشروع تخرج II · Agentic RAG + LLMs",
+      "pr1.desc": 'منصة وكيلة بـ<b>27 أداة متخصصة</b> ونظام Hybrid RAG ‏(دلالي + نصي كامل بدمج RRF). جودة استجابة <b>90.5%</b> ‏(LLM-as-a-Judge) بزمن <b>P95 = 3.6 ثانية</b>.',
+      "pr1.badge": "🎯 جودة 90.5%",
+      "pr2.title": "فائق دقة الصور بالذكاء الاصطناعي — ISR",
+      "pr2.type": "مشروع تخرج I · فائق دقة الصور",
+      "pr2.desc": 'مقارنة PyTorch لخمسة نماذج على DIV2K — يتصدر SwinIR عند ×2 بـ<b>PSNR 35.20 dB / SSIM 0.940</b>، مع دراسة دوال خسارة (الأفضل L1+VGG).',
+      "pr3.title": "تحليلات ذكية للبرمجيات الخبيثة — مصنّف تعلّم عميق",
+      "pr3.type": "مشروع مبكّر · أمن بتعلّم عميق",
+      "pr3.desc": 'ملفات تنفيذية → صور رمادية → شبكات CNN مضبوطة. <b>DenseNet201: دقة 98.8% وAUC 0.999</b> على 29,575 عينة متوازنة — مُختبَر على ملفات حقيقية.',
+      "pr3.badge": "⚡ دقة 98.8%",
+      "pr9.title": "كشف المالوير — تقنيات الذكاء الاصطناعي (بيانات جدولية)",
+      "pr9.type": "مشروع أكاديمي · تعلم آلي كلاسيكي",
+      "pr9.desc": 'نموذج هجين <b>Random Forest + KNN</b> فوق 216 خاصية تطبيق — <b>دقة 98.84% وF1 98.83%</b> بضبط GridSearchCV على 15,036 عينة.',
+      "pr9.badge": "⚡ F1 98.84%",
       "pr4.title": "تصنيف أورام الدماغ",
       "pr4.type": "تعلّم عميق · صحة",
       "pr4.year": "ذكاء طبي",
@@ -292,48 +334,55 @@
 
       "skills.kicker": "04. المهارات",
       "skills.title": 'صندوق <span class="grad">أدواتي</span>.',
-      "sk1.title": "البرمجة", "sk2.title": "الذكاء الاصطناعي وتعلّم الآلة",
-      "sk3.title": "الأطر والمكتبات", "sk4.title": "قواعد البيانات والمتجهات",
-      "sk5.title": "الأدوات وDevOps", "sk6.title": "أساسيات الحاسوب",
+      "skills.sub": "منظومة هندسة ذكاء اصطناعي متكاملة — من لغات البرمجة والأطر إلى بنية البيانات وأساسيات علوم الحاسب.",
+      "skills.total": "6 تخصصات · 74 مهارة",
+      "skills.unit": "مهارة",
+      "skills.cats": "تخصصات",
+      "sk1.title": "لغات البرمجة", "sk2.title": "الذكاء التوليدي وLLMs",
+      "sk3.title": "تعلّم الآلة والتعلّم العميق", "sk4.title": "الأطر والمكتبات",
+      "sk5.title": "البيانات والبنية التحتية", "sk6.title": "الأدوات والمفاهيم",
 
       "exp.kicker": "05. الخبرات",
       "exp.title": 'أين <span class="grad">عملت</span>.',
       "job0.p": "منتصف 2026 — الآن",
       "job0.badge": "المنصب الحالي",
-      "job0.title": "مهندس ومطوّر نماذج الذكاء الاصطناعي وعلوم البيانات",
+      "job0.title": "مهندس ذكاء اصطناعي وعلوم بيانات",
       "job0.org": "الأمانة العامة لرئاسة الجمهورية العربية السورية",
       "job0.b1": "تطوير وضبط دقيق (Fine-Tuning) لنماذج لغوية كبيرة لخدمة مهام مؤسسية حساسة.",
       "job0.b2": "بناء أنظمة RAG متقدمة فوق قواعد معرفة رسمية مع فهارس متجهية آمنة.",
       "job0.b3": "هندسة الخصائص وخطوط علوم البيانات لتحويل بيانات المؤسسة إلى رؤى وقرارات.",
       "job0.b4": "نشر الحلول بحاويات Docker ضمن بيئات عالية الموثوقية والسرية.",
-      "job1.p": "2023 — الآن",
+      "job1.p": "2023 — منتصف 2026",
       "job1.title": "أخصائي تقنية معلومات وإعلام وحلول ذكاء اصطناعي",
       "job1.org": "أرتيزان للتصميم الداخلي · سوريا ودبي",
-      "job1.b1": "إدارة بنية التقنية المعلوماتية والدعم في فرعي دمشق ودبي.",
-      "job1.b2": "قيادة مبادرات ذكاء اصطناعي وأتمتة لرفع الإنتاجية.",
-      "job1.b3": "إدارة الإنتاج الإعلامي المتوافق مع محفظة تصميم فاخرة.",
-      "job1.b4": "الجسر بين الفرق التقنية والإبداعية لتسليم متسق للعلامة.",
-      "job2.p": "2022 — الآن",
+      "job1.b1": "إدارة بنية التقنية المعلوماتية والصيانة والدعم الفني في فرعي دمشق ودبي.",
+      "job1.b2": "تنسيق وتنفيذ المبادرات التقنية والإعلام الرقمي والذكاء الاصطناعي لرفع كفاءة العمل.",
+      "job1.b3": "قيادة الإنتاج الإعلامي وتطوير المحتوى، بما في ذلك الأصول البصرية والعروض التسويقية لمشاريع التصميم الداخلي الفاخر.",
+      "job1.b4": "توظيف أدوات الذكاء الاصطناعي والأتمتة لتحسين سير العمل الإبداعي وتعزيز الحضور الرقمي محلياً ودولياً.",
+      "job1.b5": "تسهيل التعاون بين الفرق التقنية والإبداعية لضمان تواصل فعّال وتمثيل متسق للعلامة.",
+      "job2.p": "2022 — منتصف 2026",
       "job2.title": "منسق أنظمة تقنية ومدير فريق",
       "job2.org": "وائل للدهانات والديكور · الشيراتون، دمشق",
-      "job2.b1": "تشغيل بنية التقنية المعلوماتية وتنسيق الفرق لتحقيق أهداف المشاريع.",
-      "job2.b2": "تطوير سير العمل بأدوات الإعلام الرقمي والذكاء الاصطناعي.",
-      "job2.b3": "الإشراف على الصيانة وتقديم تدريب للموظفين.",
-      "job3.p": "2020 — الآن",
+      "job2.b1": "إدارة وصيانة بنية التقنية المعلوماتية لضمان عمليات يومية موثوقة.",
+      "job2.b2": "قيادة الفرق وتنسيقها لتحقيق أهداف المشاريع بكفاءة.",
+      "job2.b3": "تحسين سير العمل عبر حلول الإعلام الرقمي وأدوات الذكاء الاصطناعي.",
+      "job2.b4": "تسهيل التواصل بين الأقسام التقنية والإدارية.",
+      "job2.b5": "الإشراف على الصيانة التقنية وتقديم التدريب والدعم للموظفين.",
+      "job3.p": "2020 — 2024",
       "job3.title": "مصمم جرافيك مستقل", "job3.org": "عمل حر",
-      "job3.b1": "تصميم هويات بصرية ومواد تسويقية للرقمي والمطبوع.",
-      "job3.b2": "تحويل الأفكار المعقدة إلى أنظمة تصميم واضحة وجذابة.",
+      "job3.b1": "تصميم هويات بصرية ومواد تسويقية للوسائط الرقمية والمطبوعة.",
+      "job3.b2": "تطبيق مبادئ التواصل البصري وتجربة المستخدم لتقديم تصاميم واضحة وفعّالة.",
       "job4.p": "2018 — الآن",
-      "job4.title": "أخصائي هواتف وحواسيب", "job4.org": "تجزئة وخدمات",
-      "job4.b1": "تشخيص وحل مشكلات عتاد وبرمجيات معقدة.",
-      "job4.b2": "خبرة عميقة في الصيانة والتحسين ودعم العملاء.",
-      "job5.p": "2015 — الآن",
-      "job5.title": "مصوّر فوتوغرافي مستقل", "job5.org": "عمل حر",
-      "job5.b1": "تقنيات تصوير رقمي متقدمة ومعالجة معززة بالذكاء الاصطناعي.",
-      "job5.b2": "إدارة عملاء من البداية للنهاية عبر مهام متنوعة.",
+      "job4.title": "أخصائي هواتف وحواسيب (بدوام جزئي)", "job4.org": "تجزئة وخدمات",
+      "job4.b1": "تشخيص وإصلاح مشكلات العتاد والبرمجيات في الهواتف والحواسيب.",
+      "job4.b2": "تحسين الأنظمة والصيانة التقنية ودعم العملاء.",
+      "job5.p": "2015 — 2025",
+      "job5.title": "مصوّر فوتوغرافي مستقل", "job5.org": "إنستغرام — tareq_mhysen_photography",
+      "job5.b1": "إدارة مشاريع التصوير والمعالجة الرقمية وتحسين الصور.",
+      "job5.b2": "التواصل مع العملاء وتسليم محتوى بصري عالي الجودة.",
       "edu.title": "بكالوريوس — هندسة الذكاء الاصطناعي وعلوم البيانات",
-      "edu.org": "الجامعة السورية الخاصة (SPU) · دمشق",
-      "edu.desc": "تخرّجت بأداء استثنائي في المشاريع التقنية، مع تطبيق عملي قوي لمبادئ الذكاء الاصطناعي.",
+      "edu.org": "الجامعة السورية الخاصة (SPU) · دمشق، سوريا",
+      "edu.desc": "تخرّجت بأداء أكاديمي قوي في المشاريع التقنية، مع قدرة على تطبيق الذكاء الاصطناعي وتعلّم الآلة والتعلّم العميق لحل تحديات واقعية.",
 
       "vol.title": "خارج العمل", "vol.title2": "— التطوع",
       "vol1.title": "مسابقة الروبوت السنوية",
@@ -360,14 +409,25 @@
 
       "cert.kicker": "07. الشهادات",
       "cert.title": 'تعلّم <span class="grad">دائمًا</span>.',
+      "cert.sub": "‏15 شهادة في هندسة النماذج اللغوية والذكاء التوليدي وهندسة الأوامر وقواعد البيانات.",
+      "cert.count": "‏15 شهادة · 6 جهات مانحة",
+      "cert.view": "عرض الشهادة",
+      "cert.open": "فتح الأصل",
+      "c0.title": "الذكاء الوكيل (Agentic AI)",
       "c1.title": "الذكاء التوليدي مع النماذج اللغوية الكبيرة",
       "c2.title": "الشبكات العصبية والتعلّم العميق",
       "c3.title": "LangChain لتطوير تطبيقات LLM",
       "c4.title": "LangChain: الدردشة مع بياناتك",
       "c5.title": "الذكاء التوليدي لإثراء صناعة المحتوى",
-      "c6.title": "أساسيات الذكاء التوليدي · GenAI في التسويق · هندسة الأوامر لـChatGPT",
-      "c7.title": "شهادات Gemini — طالب (K12) · مربٍّ · طالب جامعي",
-      "c8.title": "MySQL Workbench — إنشاء قواعد البيانات وتصميمها",
+      "c6.title": "إنشاء محتوى الذكاء التوليدي",
+      "c7.title": "تحرير وتعزيز المحتوى المولّد بالذكاء الاصطناعي",
+      "c8.title": "هندسة الأوامر لـChatGPT",
+      "c9.title": "أساسيات الذكاء التوليدي",
+      "c10.title": "الذكاء التوليدي في التسويق",
+      "c11.title": "إنشاء قواعد البيانات وتصميمها",
+      "c12.title": "شهادة Gemini للطلبة (K12)",
+      "c13.title": "شهادة Gemini للطلبة الجامعيين",
+      "c14.title": "مربّي Gemini المعتمد",
 
       "ref.kicker": "08. التوصيات",
       "ref.title": 'ثقة <span class="grad">أكاديمية</span>.',
@@ -375,10 +435,12 @@
       "ref1.name": "د. مهيب النقري",
       "ref1.role": "عميد كلية هندسة الذكاء الاصطناعي",
       "ref1.org": "الجامعة السورية الخاصة (SPU)",
+      "ref1.phone": "+963 965 110 065",
       "ref2.name": "م. آية الأسود",
       "ref2.role": "معيدة ومشرفة مختبرات — كلية الهندسة المعلوماتية (ITE)",
       "ref2.org": "الجامعة السورية الخاصة (SPU)",
-      "ref.note": "بيانات التواصل متاحة عند الطلب.",
+      "ref2.phone": "+963 959 411 465",
+      "ref.note": "مزيد من بيانات التواصل متاحة عند الطلب.",
 
       "ct.kicker": "09. تواصل",
       "ct.title": 'لنبنِ شيئًا <span class="grad">ذكيًا</span> معًا.',
@@ -402,99 +464,137 @@
   };
 
   const ROLES = {
-    en: ["AI & Data Science Engineer", "AI Models Engineer", "LLM & RAG Developer", "Computer Vision Engineer", "Creative Technologist"],
-    ar: ["مهندس ذكاء اصطناعي وعلوم بيانات", "مهندس نماذج الذكاء الاصطناعي", "مطوّر أنظمة LLM وRAG", "مهندس رؤية حاسوبية", "تقني مبدع ومصوّر"],
+    en: ["AI & Data Science Engineer", "LLM & Agentic RAG Developer", "Computer Vision Engineer", "Data Scientist", "Creative Technologist"],
+    ar: ["مهندس ذكاء اصطناعي وعلوم بيانات", "مطوّر أنظمة LLM وRAG الوكيلة", "مهندس رؤية حاسوبية", "عالم بيانات", "تقني مبدع ومصوّر"],
   };
 
   /* ═══════════════ PROJECT MODAL DATA ═══════════════ */
   const PROJECTS = {
     intellipath: {
-      year: "2025 — 2026",
-      tags: ["Python", "LangChain", "LLaMA 3", "FAISS", "Hugging Face", "RAG"],
+      year: "Sept 2025 — 2026",
+      tags: ["Agentic AI", "Hybrid RAG", "Qdrant", "pgvector", "Supabase", "Neo4j", "React 18 + TypeScript", "Deno Edge Functions", "Docker"],
       en: {
         title: "IntelliPath — Agentic AI Academic Advisor",
-        type: "Senior Capstone II · RAG + LLMs",
+        type: "Senior Project II · Agentic RAG + LLMs",
         desc: [
-          "An agentic academic advisor built as my Senior Capstone II project. Students ask natural-language questions about courses, regulations and university life — and get precise, source-grounded answers.",
-          "The pipeline indexes a curated academic knowledge base into a FAISS vector store, retrieves the most relevant passages per query, and grounds Llama 3 responses through LangChain orchestration and careful prompt engineering.",
+          "An agentic academic-advising platform I built individually as my Senior Project II (2025–2026) at the SPU Faculty of AI Engineering. Supervised by Dr. Mouhib Al-Noukari and Eng. Aya Alaswad. An agent with 27 specialized tools answers students' natural-language questions with cited sources.",
+          "Hybrid RAG combines semantic search (Qdrant / pgvector) with full-text search in PostgreSQL, fused via Reciprocal Rank Fusion — retrieval accuracy reached 85%, +9% over pure semantic search. The backend runs on Supabase (66+ tables, Auth, Row Level Security) with 35+ Deno Edge Functions and a Neo4j knowledge graph for career paths.",
         ],
         highlights: [
-          "Top performance in the Senior Capstone II showcase",
-          "Agentic RAG over a curated academic knowledge base",
-          "Context-grounded answers via FAISS retrieval + prompt engineering",
+          "Response quality 90.5% (1.81/2.0) measured by LLM-as-a-Judge",
+          "Tool selection 94% accuracy · 96.6% error-free recovery",
+          "P95 latency 3.6s · Semantic cache 8.2× speed-up (33.3% hit rate)",
+          "Retrieval accuracy 85% (+9% from Hybrid RAG) · 99.2% uptime",
+          "Evaluated on 130 courses, 5,422 chunks (1,536-dim vectors), 52 test cases",
         ],
       },
       ar: {
         title: "IntelliPath — مستشار أكاديمي بوكيل ذكي",
-        type: "مشروع تخرج II · RAG + LLMs",
+        type: "مشروع تخرج II · Agentic RAG + LLMs",
         desc: [
-          "مستشار أكاديمي وكيل بنيته كمشروع التخرج الثاني. يطرح الطلبة أسئلتهم بلغة طبيعية عن المواد واللوائح والحياة الجامعية — فيحصلون على إجابات دقيقة ومستندة إلى المصادر.",
-          "يفهرس النظام قاعدة معرفة أكاديمية منسقة داخل متجر متجهات FAISS، ويسترجع المقاطع الأكثر صلة بكل سؤال، ثم يؤطّر إجابات Llama 3 عبر تنسيق LangChain وهندسة أوامر مدروسة.",
+          "منصة إرشاد أكاديمي وكيلة بنيتها فردياً كمشروع التخرج الثاني (2025–2026) في كلية هندسة الذكاء الاصطناعي بالجامعة السورية الخاصة، بإشراف د. مهيب النقري وم. آية الأسود. وكيل ذكي بـ27 أداة متخصصة يجيب أسئلة الطلبة بلغة طبيعية مع ذكر المصادر.",
+          "يجمع نظام Hybrid RAG بين البحث الدلالي (Qdrant / pgvector) والبحث النصي الكامل في PostgreSQL مع دمج النتائج بـ Reciprocal Rank Fusion — فبلغت دقة الاسترجاع 85%، بتحسن 9% عن البحث الدلالي وحده. تعمل الخلفية على Supabase (أكثر من 66 جدولاً مع Auth وRow Level Security) و35+ دالة Deno Edge Function، مع رسم معرفي Neo4j للمسارات المهنية.",
         ],
         highlights: [
-          "الأداء الأفضل في عرض مشاريع التخرج الثاني",
-          "نظام RAG وكيل فوق قاعدة معرفة أكاديمية منسقة",
-          "إجابات مؤطّرة بالسياق عبر استرجاع FAISS وهندسة الأوامر",
+          "جودة الاستجابة 90.5% ‏(1.81/2.0) بقياس LLM-as-a-Judge",
+          "دقة اختيار الأدوات 94% · استرداد أخطاء 96.6% بدون خطأ ظاهر",
+          "زمن استجابة P95 = 3.6 ثانية · كاش دلالي بتسريع 8.2× (إصابة 33.3%)",
+          "دقة استرجاع 85% (+9% بفضل Hybrid RAG) · جهوزية 99.2%",
+          "تقييم على 130 مقرراً و5,422 قطعة نصية (متجهات بُعد 1,536) و52 حالة اختبار",
         ],
       },
     },
     isr: {
       year: "2025",
-      tags: ["TensorFlow", "SwinIR", "ESRGAN", "OpenCV", "PSNR", "SSIM"],
+      tags: ["PyTorch", "SwinIR", "EDSR", "RCAN", "TECOGAN", "DIV2K", "PSNR / SSIM", "TensorBoard"],
       en: {
-        title: "AI Image Super-Resolution",
-        type: "Senior Capstone I · ISR",
+        title: "AI Image Super-Resolution — ISR",
+        type: "Senior Project I · Image Super-Resolution",
         desc: [
-          "A comparative study and implementation of image super-resolution. I trained and benchmarked CNNs, GANs and Transformer architectures that reconstruct high-quality images from degraded low-resolution inputs.",
-          "SwinIR — a Swin Transformer-based model — delivered the strongest perceptual results, with every experiment measured in PSNR and SSIM against ESRGAN baselines.",
+          "A practical PyTorch comparison of five super-resolution models — EDSR, RCAN, SwinIR, TECOGAN and a custom ComplexEDSR — trained on DIV2K and tested on Set5, Set14, BSD100 and Urban100 with full augmentation. Supervised by Dr. Assef Jaafar and Eng. Aya Alaswad.",
+          "SwinIR delivered the best results: 35.20 dB PSNR / 0.940 SSIM at ×2 upscaling. A loss-function study on EDSR showed L1+VGG mixing performs best (32.9 dB) and L1 beats L2 (32.5 vs 31.8 dB). Training used Adam + CosineAnnealingLR with early stopping and best-checkpoint selection.",
         ],
         highlights: [
-          "+25% perceived resolution improvement",
-          "SwinIR Transformer outperformed GAN baselines",
-          "Rigorous PSNR/SSIM benchmarking methodology",
+          "SwinIR best at ×2: 35.20 dB PSNR · 0.940 SSIM",
+          "5 architectures benchmarked across ×2 / ×4 / ×8 upscaling",
+          "Loss study: L1+VGG hybrid > L1 > L2",
+          "Rigorous PSNR / SSIM / LPIPS evaluation methodology",
         ],
       },
       ar: {
-        title: "فائق دقة الصور بالذكاء الاصطناعي",
-        type: "مشروع تخرج I · ISR",
+        title: "فائق دقة الصور بالذكاء الاصطناعي — ISR",
+        type: "مشروع تخرج I · فائق دقة الصور",
         desc: [
-          "دراسة مقارنة وتنفيذ لتقنية فائق دقة الصور. درّبت وقيّمت شبكات CNN وGAN وبنى ترانسفورمر تعيد بناء صور عالية الجودة من مدخلات منخفضة الدقة.",
-          "قدّم نموذج SwinIR المبني على Swin Transformer أفضل النتائج الإدراكية، مع قياس كل تجربة بمؤشري PSNR وSSIM مقارنة بنماذج ESRGAN.",
+          "مقارنة عملية بـPyTorch بين خمسة نماذج لفائق دقة الصور — EDSR وRCAN وSwinIR وTECOGAN ونسخة ComplexEDSR مطورة — بتدريب على DIV2K واختبار على Set5 وSet14 وBSD100 وUrban100 مع تكبير بيانات كامل، بإشراف د. آصف جعفر وم. آية الأسود.",
+          "حقق SwinIR أفضل النتائج: 35.20 dB ‏PSNR و0.940 SSIM عند التكبير ×2. ودراسة دوال الخسارة على EDSR أظهرت تفوق مزج L1+VGG ‏(32.9 dB) وتفوق L1 على L2 ‏(32.5 مقابل 31.8 dB). استخدم التدريب Adam مع CosineAnnealingLR وEarly Stopping وحفظ أفضل Checkpoint.",
         ],
         highlights: [
-          "تحسّن إدراكي في الدقة بنسبة 25%",
-          "تفوّق SwinIR الترانسفورمري على نماذج GAN",
-          "منهجية قياس صارمة بمؤشري PSNR/SSIM",
+          "SwinIR الأفضل عند ×2: ‏PSNR يساوي 35.20 dB · SSIM يساوي 0.940",
+          "خمس بنى معمارية مقارنة عبر تكبيرات ×2 / ×4 / ×8",
+          "دراسة خسائر: مزج L1+VGG > L1 > L2",
+          "منهجية تقييم صارمة بمؤشرات PSNR / SSIM / LPIPS",
         ],
       },
     },
     malware: {
       year: "2024 — 2025",
-      tags: ["Python", "TensorFlow", "DenseNet201", "Scikit-learn"],
+      tags: ["TensorFlow / Keras", "DenseNet201", "Transfer Learning", "Pillow", "Jupyter"],
       en: {
-        title: "Intelligent Malware Detection",
-        type: "Junior Project · Threat Analytics",
+        title: "Intelligent Malware Analytics — Deep Learning Classifier",
+        type: "Junior Project · Deep Learning Security",
         desc: [
-          "An intelligent agent that detects and classifies Windows malware by converting executables into images and analyzing their visual structure with DenseNet201 — malware families leave distinct visual fingerprints.",
-          "The system reached 98% detection accuracy and earned recognition for exceptional innovation and technical execution.",
+          "A deep-learning classifier (joint project with Ghena Omar-Hussain, supervised by Dr. Maisaa Abu-Qassem) that distinguishes malicious from clean executables by converting them into grayscale images with Pillow, resizing to 224×224 RGB, then fine-tuning ImageNet-pretrained models with TensorFlow/Keras.",
+          "Trained on a balanced dataset of 29,575 samples (14,713 malicious / 14,862 clean, 70/15/15 split). DenseNet201 led five benchmarked architectures with 98.8% accuracy and 0.999 AUC, validated on real unseen executables.",
         ],
         highlights: [
-          "98% detection accuracy",
-          "Novel visual-analysis approach to threat detection",
-          "Recognized for exceptional innovation",
+          "DenseNet201: 98.8% accuracy · 0.999 AUC",
+          "ResNet50 96.9% · VGG16 92.4% — five architectures compared",
+          "Balanced dataset of 29,575 executable samples",
+          "Validated on real, previously-unseen files",
         ],
       },
       ar: {
-        title: "الكشف الذكي عن المالوير",
-        type: "مشروع سنة ثالثة · تحليل تهديدات",
+        title: "تحليلات ذكية للبرمجيات الخبيثة — مصنّف تعلّم عميق",
+        type: "مشروع مبكّر · أمن بتعلّم عميق",
         desc: [
-          "وكيل ذكي يكشف البرمجيات الخبيثة ويصنّفها عبر تحويل الملفات التنفيذية إلى صور وتحليل بنيتها البصرية بشبكة DenseNet201 — فعائلات المالوير تترك بصمات بصرية مميزة.",
-          "بلغ النظام دقة كشف 98% وحاز تقديرًا على الابتكار والتنفيذ التقني الاستثنائي.",
+          "مصنّف تعلم عميق (مشروع مشترك مع غنى عمر حسين، بإشراف د. ميساء أبو قاسم) يميّز الملفات التنفيذية الخبيثة من النظيفة عبر تحويلها إلى صور Grayscale بـPillow وتوحيد حجمها 224×224 RGB، ثم الضبط الدقيق لنماذج مدرّبة مسبقاً على ImageNet بـTensorFlow/Keras.",
+          "درّب على بيانات متوازنة من 29,575 عينة (14,713 خبيثة / 14,862 نظيفة بتقسيم 70/15/15). تفوق DenseNet201 على خمس بنى مقارنة بدقة 98.8% وAUC بقيمة 0.999، مع اختبار على ملفات حقيقية غير مرئية مسبقاً.",
         ],
         highlights: [
-          "دقة كشف 98%",
-          "نهج بصري مبتكر لتحليل التهديدات",
-          "تقدير على الابتكار الاستثنائي",
+          "DenseNet201: دقة 98.8% · AUC بقيمة 0.999",
+          "ResNet50 بدقة 96.9% وVGG16 بدقة 92.4% — مقارنة خمس بنى",
+          "بيانات متوازنة من 29,575 عينة تنفيذية",
+          "مُختبَر على ملفات حقيقية غير مرئية مسبقاً",
+        ],
+      },
+    },
+    malwareml: {
+      year: "2023 — 2024",
+      tags: ["Scikit-learn", "Random Forest", "KNN", "GridSearchCV", "Pandas", "Joblib"],
+      en: {
+        title: "Malware Detection with AI Techniques (Tabular ML)",
+        type: "Academic Project · Classical Machine Learning",
+        desc: [
+          "An individual ML project (supervised by Dr. Maisaa Abu-Qassem) detecting malicious applications from tabular data: 15,036 samples with 216 mostly-binary features (API + CALLS) from FigShare, with full EDA, encoding, correlation analysis and 80/20 split.",
+          "A hybrid Random Forest + KNN model — tuned with GridSearchCV — reached 98.84% accuracy / 98.83% F1, edging out pure KNN (98.77%) and Random Forest (98.70%). Models persisted with Joblib for reuse.",
+        ],
+        highlights: [
+          "Hybrid RF+KNN: 98.84% accuracy · 98.83% F1",
+          "15,036 samples · 216 engineered features",
+          "GridSearchCV tuning · benchmark against 7 research papers",
+        ],
+      },
+      ar: {
+        title: "كشف البرمجيات الخبيثة بتقنيات الذكاء الاصطناعي (بيانات جدولية)",
+        type: "مشروع أكاديمي · تعلم آلي كلاسيكي",
+        desc: [
+          "مشروع فردي بتعلّم الآلي (بإشراف د. ميساء أبو قاسم) لكشف التطبيقات الخبيثة من بيانات جدولية: 15,036 عينة بـ216 خاصية ثنائية غالباً (API + CALLS) من FigShare، مع استكشاف بيانات كامل وترميز وتحليل ارتباط وتقسيم 80/20.",
+          "نموذج هجين Random Forest + KNN — بعد ضبط المعاملات بـGridSearchCV — بلغ دقة 98.84% وF1 بقيمة 98.83%، متفوقاً على KNN وحده (98.77%) وRandom Forest وحده (98.70%). حُفظت النماذج بـJoblib لإعادة الاستخدام.",
+        ],
+        highlights: [
+          "هجين RF+KNN: دقة 98.84% · F1 بقيمة 98.83%",
+          "15,036 عينة · 216 خاصية هندسية",
+          "ضبط GridSearchCV · مقارنة مع 7 أبحاث مرجعية",
         ],
       },
     },
@@ -741,6 +841,8 @@
       else el.textContent = val;
     });
     startTypewriter();
+    refreshDotLabels();
+    renderSkillMeta();
     fillModal(); // if modal is open, re-render in new language
   };
 
@@ -763,12 +865,62 @@
   const themeBtn = $("#theme-toggle");
   if (themeBtn) themeBtn.addEventListener("click", () => applyTheme(theme === "dark" ? "light" : "dark"));
 
-  /* ═══════════════ PRELOADER ═══════════════ */
+  /* ═══════════════ PRELOADER + INTRO ═══════════════ */
   const preloader = $("#preloader");
-  const hidePreloader = () => setTimeout(() => preloader && preloader.classList.add("done"), 1500);
-  if (document.readyState === "complete") hidePreloader();
-  else window.addEventListener("load", hidePreloader);
-  setTimeout(() => preloader && preloader.classList.add("done"), 4000);
+  const plPct = $("#pl-pct");
+  const bodyEl = document.body;
+  const INTRO_DUR = 1700;
+
+  const SCRAMBLE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%$*_/<>[]{}=+";
+  const scrambleLine = (el, text, delay) => {
+    if (!el) return;
+    if (prefersReduced) { el.textContent = text; return; }
+    const start = performance.now() + delay;
+    const step = (now) => {
+      const t = (now - start) / 720;
+      if (t < 0) { requestAnimationFrame(step); return; }
+      const p = Math.min(t, 1);
+      const reveal = Math.floor(p * text.length);
+      let out = text.slice(0, reveal);
+      for (let i = reveal; i < text.length; i++) out += SCRAMBLE[(Math.random() * SCRAMBLE.length) | 0];
+      el.textContent = out;
+      if (p < 1) requestAnimationFrame(step);
+      else el.textContent = text;
+    };
+    requestAnimationFrame(step);
+  };
+  $$(".ll-txt").forEach((el, i) => scrambleLine(el, el.dataset.text || "", 180 + i * 400));
+
+  const runCounter = () => {
+    if (!plPct) return;
+    if (prefersReduced) { plPct.textContent = "100%"; return; }
+    const t0 = performance.now();
+    const tick = (now) => {
+      const p = Math.min((now - t0) / INTRO_DUR, 1);
+      plPct.textContent = Math.round(p * 100) + "%";
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+
+  const finishIntro = () => {
+    if (!preloader || preloader.classList.contains("done")) return;
+    preloader.classList.add("done");
+    bodyEl.classList.remove("is-loading");
+    bodyEl.classList.add("is-ready");
+    runHeroCounters();
+  };
+
+  runCounter();
+  let introScheduled = false;
+  const scheduleIntro = () => {
+    if (introScheduled) return;
+    introScheduled = true;
+    setTimeout(finishIntro, prefersReduced ? 60 : 1780);
+  };
+  if (document.readyState === "complete") scheduleIntro();
+  else window.addEventListener("load", scheduleIntro);
+  setTimeout(finishIntro, 4200);
 
   /* ═══════════════ CUSTOM CURSOR ═══════════════ */
   if (finePointer && !prefersReduced) {
@@ -795,6 +947,20 @@
       const t2 = e.target.closest("a, button, .project-card, .filter-btn, .g-tile");
       ring.classList.toggle("hovering", !!t2);
     });
+
+    const spot = $("#spotlight");
+    if (spot) {
+      document.body.classList.add("spotlight-on");
+      let sx = window.innerWidth / 2, sy = window.innerHeight * 0.4;
+      const spotLoop = () => {
+        sx += (mx - sx) * 0.08;
+        sy += (my - sy) * 0.08;
+        spot.style.setProperty("--sx", sx + "px");
+        spot.style.setProperty("--sy", sy + "px");
+        requestAnimationFrame(spotLoop);
+      };
+      spotLoop();
+    }
   }
 
   /* ═══════════════ NEURAL CANVAS ═══════════════ */
@@ -888,12 +1054,72 @@
   const navLinks = $$(".nav-link");
   const sections = $$("main section[id]");
 
+  /* ═══════════════ SKILLS META ═══════════════ */
+  function renderSkillMeta() {
+    const cards = $$(".skill-card");
+    if (!cards.length) return;
+    let total = 0;
+    cards.forEach((c) => {
+      const n = c.querySelectorAll(".pills span").length;
+      total += n;
+      const sc = c.querySelector(".skill-count");
+      if (sc) sc.textContent = n + " " + t("skills.unit");
+    });
+    const tot = $(".skills-total");
+    if (tot) tot.textContent = cards.length + " " + t("skills.cats") + " · " + total + " " + t("skills.unit");
+  }
+
+  /* ═══════════════ SECTION DOT-NAV ═══════════════ */
+  const dotNav = $("#dot-nav");
+  function refreshDotLabels() {
+    if (!dotNav) return;
+    $$(".dot-link", dotNav).forEach((d) => {
+      const label = t("dot." + d.dataset.target);
+      d.setAttribute("aria-label", label);
+      const em = d.querySelector("em");
+      if (em) em.textContent = label;
+    });
+  }
+  if (dotNav) {
+    sections.forEach((s) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "dot-link";
+      b.dataset.target = s.id;
+      b.innerHTML = "<span></span><em></em>";
+      b.addEventListener("click", () =>
+        s.scrollIntoView({ behavior: prefersReduced ? "auto" : "smooth", block: "start" })
+      );
+      dotNav.appendChild(b);
+    });
+  }
+
+  const timelineEl = $(".timeline");
+  const tlFill = $("#tl-fill");
+  const ttProg = $("#tt-prog");
+  const TT_C = 119.38;
+  let lastY = window.scrollY;
+
   const onScroll = () => {
     const st = window.scrollY;
     const docH = document.documentElement.scrollHeight - window.innerHeight;
-    progress.style.width = (docH > 0 ? (st / docH) * 100 : 0) + "%";
+    const ratio = docH > 0 ? st / docH : 0;
+    progress.style.width = ratio * 100 + "%";
     navbar.classList.toggle("scrolled", st > 40);
     toTop.classList.toggle("show", st > 600);
+
+    if (!bodyEl.classList.contains("menu-open")) {
+      if (st > lastY + 6 && st > 520) navbar.classList.add("nav-hidden");
+      else if (st < lastY - 6 || st < 240) navbar.classList.remove("nav-hidden");
+    }
+    lastY = st;
+
+    if (tlFill && timelineEl) {
+      const r = timelineEl.getBoundingClientRect();
+      const p = Math.max(0, Math.min(1, (window.innerHeight * 0.82 - r.top) / (r.height || 1)));
+      tlFill.style.height = p * 100 + "%";
+    }
+    if (ttProg) ttProg.style.strokeDashoffset = (TT_C * (1 - ratio)).toFixed(2);
 
     let current = sections[0] && sections[0].id;
     for (const s of sections) {
@@ -902,6 +1128,11 @@
     navLinks.forEach((l) =>
       l.classList.toggle("active", l.getAttribute("href") === "#" + current)
     );
+    if (dotNav) {
+      $$(".dot-link", dotNav).forEach((d) =>
+        d.classList.toggle("active", d.dataset.target === current)
+      );
+    }
   };
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
@@ -911,17 +1142,41 @@
   /* ═══════════════ MOBILE MENU ═══════════════ */
   const hamburger = $("#hamburger");
   const navPanel = $("#nav-links");
-  const closeMenu = () => {
-    hamburger.classList.remove("open");
-    navPanel.classList.remove("open");
-    hamburger.setAttribute("aria-expanded", "false");
-  };
-  hamburger.addEventListener("click", () => {
-    const open = navPanel.classList.toggle("open");
+  const navBackdrop = $("#nav-backdrop");
+  const setMenu = (open) => {
+    navPanel.classList.toggle("open", open);
     hamburger.classList.toggle("open", open);
     hamburger.setAttribute("aria-expanded", String(open));
-  });
+    document.body.classList.toggle("menu-open", open);
+    if (navBackdrop) navBackdrop.classList.toggle("show", open);
+    if (open) navbar.classList.remove("nav-hidden");
+  };
+  const closeMenu = () => setMenu(false);
+  hamburger.addEventListener("click", () => setMenu(!navPanel.classList.contains("open")));
+  if (navBackdrop) navBackdrop.addEventListener("click", closeMenu);
   navPanel.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
+  window.addEventListener("resize", () => { if (window.innerWidth > 860) closeMenu(); });
+
+  /* ═══════════════ COUNT-UP ═══════════════ */
+  function countUp(el) {
+    if (!el || el.dataset.counted) return;
+    el.dataset.counted = "1";
+    const target = parseFloat(el.dataset.target) || 0;
+    const suffix = el.dataset.suffix || "";
+    const dec = parseInt(el.dataset.decimals || "0", 10);
+    const fmt = (v) => v.toFixed(dec) + suffix;
+    if (prefersReduced) { el.textContent = fmt(target); return; }
+    const dur = 1500;
+    const start = performance.now();
+    const step = (now) => {
+      const t3 = Math.min((now - start) / dur, 1);
+      const eased = 1 - Math.pow(1 - t3, 3);
+      el.textContent = fmt(target * eased);
+      if (t3 < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+  function runHeroCounters() { $$(".hero-stats [data-target]").forEach(countUp); }
 
   /* ═══════════════ REVEAL + COUNTERS ═══════════════ */
   const io = new IntersectionObserver(
@@ -929,22 +1184,7 @@
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add("visible");
-        entry.target.querySelectorAll("[data-target]").forEach((el) => {
-          if (el.dataset.counted) return;
-          el.dataset.counted = "1";
-          const target = parseFloat(el.dataset.target);
-          const suffix = el.dataset.suffix || "";
-          const dur = 1400;
-          const start = performance.now();
-          const step = (now) => {
-            const t3 = Math.min((now - start) / dur, 1);
-            const eased = 1 - Math.pow(1 - t3, 3);
-            el.textContent = Math.round(target * eased) + suffix;
-            if (t3 < 1) requestAnimationFrame(step);
-          };
-          if (prefersReduced) el.textContent = target + suffix;
-          else requestAnimationFrame(step);
-        });
+        entry.target.querySelectorAll("[data-target]").forEach(countUp);
         io.unobserve(entry.target);
       });
     },
@@ -989,22 +1229,116 @@
     $("#modal-close").addEventListener("click", closeModal);
   }
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeModal(); closeMenu(); }
+    if (e.key === "Escape") { closeModal(); closeCertModal(); closeMenu(); }
   });
+
+  /* ═══════════════ CERTIFICATE LIGHTBOX ═══════════════ */
+  const certModal = $("#cert-modal");
+  let lastCertFocus = null;
+  const openCert = (card) => {
+    if (!certModal || !card.dataset.img) return;
+    lastCertFocus = document.activeElement;
+    const issuer = card.querySelector(".cert-issuer");
+    const titleEl = card.querySelector("h4");
+    const imgEl = $("#cert-modal-img");
+    imgEl.src = card.dataset.img;
+    imgEl.alt = titleEl ? titleEl.textContent : "Certificate";
+    $("#cert-modal-issuer").textContent = issuer ? issuer.textContent : "";
+    $("#cert-modal-title").textContent = titleEl ? titleEl.textContent : "";
+    const fileLink = $("#cert-modal-file");
+    if (card.dataset.file) { fileLink.href = card.dataset.file; fileLink.hidden = false; }
+    else { fileLink.removeAttribute("href"); fileLink.hidden = true; }
+    certModal.hidden = false;
+    requestAnimationFrame(() => certModal.classList.add("show"));
+    document.body.style.overflow = "hidden";
+    $("#cert-modal-close").focus();
+  };
+  const closeCertModal = () => {
+    if (!certModal || certModal.hidden) return;
+    certModal.classList.remove("show");
+    document.body.style.overflow = "";
+    setTimeout(() => { certModal.hidden = true; }, 300);
+    if (lastCertFocus && lastCertFocus.focus) lastCertFocus.focus();
+  };
+  $$(".cert-card").forEach((card) => {
+    card.addEventListener("click", () => openCert(card));
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openCert(card); }
+    });
+  });
+  if (certModal) {
+    certModal.addEventListener("click", (e) => { if (e.target === certModal) closeCertModal(); });
+    $("#cert-modal-close").addEventListener("click", closeCertModal);
+  }
 
   /* ═══════════════ 3D TILT + GLOW ═══════════════ */
   if (finePointer && !prefersReduced) {
     $$(".tilt").forEach((card) => {
+      if (!card.querySelector(":scope > .card-glow") && getComputedStyle(card).position !== "static") {
+        const g = document.createElement("div");
+        g.className = "card-glow";
+        card.appendChild(g);
+      }
+      card.addEventListener("mouseenter", () => {
+        card.style.transition = "transform 0.18s ease-out, box-shadow 0.3s, border-color 0.3s";
+      });
       card.addEventListener("mousemove", (e) => {
         const r = card.getBoundingClientRect();
         const px = (e.clientX - r.left) / r.width;
         const py = (e.clientY - r.top) / r.height;
-        card.style.transform = `rotateX(${(0.5 - py) * 10}deg) rotateY(${(px - 0.5) * 10}deg) translateY(-4px)`;
+        card.style.transform = `rotateX(${(0.5 - py) * 9}deg) rotateY(${(px - 0.5) * 9}deg) translateY(-5px)`;
         card.style.setProperty("--mx", px * 100 + "%");
         card.style.setProperty("--my", py * 100 + "%");
       });
-      card.addEventListener("mouseleave", () => { card.style.transform = ""; });
+      card.addEventListener("mouseleave", () => {
+        card.style.transform = "";
+        setTimeout(() => { card.style.transition = ""; }, 240);
+      });
     });
+  }
+
+  /* ═══════════════ MAGNETIC BUTTONS ═══════════════ */
+  if (finePointer && !prefersReduced) {
+    $$(".magnetic").forEach((el) => {
+      el.addEventListener("mousemove", (e) => {
+        const r = el.getBoundingClientRect();
+        const x = (e.clientX - r.left - r.width / 2) / r.width;
+        const y = (e.clientY - r.top - r.height / 2) / r.height;
+        el.style.transform = `translate(${x * 9}px, ${y * 9}px)`;
+      });
+      el.addEventListener("mouseleave", () => { el.style.transform = ""; });
+    });
+  }
+
+  /* ═══════════════ BUTTON RIPPLE ═══════════════ */
+  if (!prefersReduced) {
+    document.addEventListener("pointerdown", (e) => {
+      const btn = e.target.closest(".btn, .filter-btn, .social-btn, .copy-btn, .icon-btn");
+      if (!btn) return;
+      const r = btn.getBoundingClientRect();
+      const size = Math.max(r.width, r.height);
+      const s = document.createElement("span");
+      s.className = "ripple";
+      s.style.width = s.style.height = size + "px";
+      s.style.left = e.clientX - r.left - size / 2 + "px";
+      s.style.top = e.clientY - r.top - size / 2 + "px";
+      btn.appendChild(s);
+      setTimeout(() => s.remove(), 700);
+    });
+  }
+
+  /* ═══════════════ HERO PARALLAX ═══════════════ */
+  const parallaxEl = $("#orbit-wrap") || $("[data-parallax]");
+  const heroSection = $("#home");
+  if (parallaxEl && heroSection && finePointer && !prefersReduced) {
+    heroSection.addEventListener("mousemove", (e) => {
+      const r = heroSection.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - 0.5;
+      const y = (e.clientY - r.top) / r.height - 0.5;
+      parallaxEl.style.transform =
+        `translate3d(${-x * 24}px, ${-y * 24}px, 0) rotateX(${y * 7}deg) rotateY(${x * 7}deg)`;
+    }, { passive: true });
+    heroSection.addEventListener("mouseleave", () => { parallaxEl.style.transform = ""; });
   }
 
   /* ═══════════════ COPY EMAIL ═══════════════ */
