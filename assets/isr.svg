@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Image super-resolution: low resolution to high resolution">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0e22"/><stop offset="1" stop-color="#05060f"/></linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6e57ff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6e57ff"/><stop offset="0.55" stop-color="#00e5ff"/><stop offset="1" stop-color="#ff4ecd"/></linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.4"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="250" r="230" fill="url(#halo)"/>
+
+  <!-- low-res blocky image -->
+  <g>
+    <rect x="70" y="150" width="240" height="200" rx="10" fill="#0a0c1d" stroke="#ffffff" stroke-opacity="0.12"/>
+    <g>
+      <rect x="70" y="150" width="60" height="66" fill="#3a2f8f"/>
+      <rect x="130" y="150" width="60" height="66" fill="#5b45f0"/>
+      <rect x="190" y="150" width="60" height="66" fill="#3a2f8f"/>
+      <rect x="250" y="150" width="60" height="66" fill="#2b2470"/>
+      <rect x="70" y="216" width="60" height="68" fill="#2b2470"/>
+      <rect x="130" y="216" width="60" height="68" fill="#6e57ff"/>
+      <rect x="190" y="216" width="60" height="68" fill="#4a3ad0"/>
+      <rect x="250" y="216" width="60" height="68" fill="#3a2f8f"/>
+      <rect x="70" y="284" width="60" height="66" fill="#1c1852"/>
+      <rect x="130" y="284" width="60" height="66" fill="#2b2470"/>
+      <rect x="190" y="284" width="60" height="66" fill="#3a2f8f"/>
+      <rect x="250" y="284" width="60" height="66" fill="#241f66"/>
+    </g>
+  </g>
+
+  <!-- arrow -->
+  <g transform="translate(400 250)" fill="none" stroke="url(#gv)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-46 0 H34"/>
+    <path d="M22 -14 L42 0 L22 14"/>
+    <circle r="4" fill="#00e5ff" stroke="none"><animate attributeName="cx" values="-46;34;-46" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- high-res smooth image -->
+  <g>
+    <clipPath id="hr"><rect x="490" y="150" width="240" height="200" rx="10"/></clipPath>
+    <rect x="490" y="150" width="240" height="200" rx="10" fill="#0a0c1d"/>
+    <g clip-path="url(#hr)">
+      <rect x="490" y="150" width="240" height="200" fill="url(#sky)"/>
+      <circle cx="650" cy="205" r="26" fill="#ffd166"/>
+      <path d="M490 320 Q560 250 630 315 T730 300 V350 H490 Z" fill="rgba(5,6,15,0.65)"/>
+      <path d="M490 340 Q580 290 660 340 T730 330 V350 H490 Z" fill="rgba(5,6,15,0.85)"/>
+      <g stroke="rgba(255,255,255,0.28)" stroke-width="1.2">
+        <path d="M520 190h60M520 205h40M520 220h70"/>
+      </g>
+    </g>
+    <rect x="490" y="150" width="240" height="200" rx="10" fill="none" stroke="url(#gv)" stroke-width="2.2"/>
+  </g>
+
+  <g font-family="monospace" font-size="20" fill="#9aa1c7">
+    <text x="70" y="390">LOW-RES</text>
+    <text x="612" y="390">HI-RES</text>
+  </g>
+  <text x="400" y="430" font-family="monospace" font-size="22" text-anchor="middle" fill="#00e5ff">PSNR 35.20 dB · SSIM 0.940 · ×2</text>
+</svg>

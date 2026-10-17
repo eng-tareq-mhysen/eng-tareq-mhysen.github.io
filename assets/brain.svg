@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Brain MRI tumor classification">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0e22"/><stop offset="1" stop-color="#05060f"/></linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6e57ff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#ff4ecd" stop-opacity="0.4"/><stop offset="1" stop-color="#ff4ecd" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="250" r="230" fill="url(#halo)"/>
+
+  <g transform="translate(400 250)" fill="none" stroke="url(#gv)" stroke-width="2" opacity="0.9">
+    <path d="M-40 -120 C-120 -120 -150 -40 -120 20 C-150 70 -110 130 -30 124 C-10 140 40 140 60 120 C140 128 164 60 130 10 C160 -50 120 -122 40 -118 C20 -128 -20 -128 -40 -120 Z"/>
+    <path d="M-70 -70 C-30 -80 10 -60 30 -20" stroke-opacity="0.5"/>
+    <path d="M-80 20 C-40 0 0 10 40 40" stroke-opacity="0.5"/>
+    <path d="M-60 70 C-20 50 30 60 70 30" stroke-opacity="0.5"/>
+    <path d="M-30 -110 C-10 -60 -20 -10 -10 40" stroke-opacity="0.4"/>
+    <path d="M30 -110 C20 -50 40 -10 30 50" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- tumor highlight -->
+  <g transform="translate(430 200)">
+    <circle r="34" fill="none" stroke="#ff4ecd" stroke-width="2.5">
+      <animate attributeName="r" values="30;42;30" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="18" fill="rgba(255,78,205,0.35)"/>
+    <circle r="6" fill="#ff4ecd"/>
+  </g>
+
+  <!-- ROC mini chart -->
+  <g transform="translate(600 300)">
+    <rect x="0" y="-90" width="150" height="120" rx="12" fill="rgba(8,10,24,0.75)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <path d="M12 12 L12 -70 M12 12 L132 12" stroke="#9aa1c7" stroke-width="1.4"/>
+    <path d="M12 12 C40 -40 70 -66 132 -70" fill="none" stroke="#00e5ff" stroke-width="2.4"/>
+    <text x="75" y="-74" font-family="monospace" font-size="15" text-anchor="middle" fill="#00e5ff">ROC</text>
+  </g>
+
+  <text x="400" y="452" font-family="monospace" font-size="22" text-anchor="middle" fill="#00e5ff">ResNet50 · ROC-AUC 0.8796</text>
+</svg>
